@@ -1,0 +1,416 @@
+[
+  {
+    "seriesNumber": 1,
+    "year": 2015,
+    "episodes": 6,
+    "contestants": [
+      {
+        "id": 56,
+        "name": "Frank Skinner",
+        "totalPoints": 93,
+        "pointsPerTask": 2.82,
+        "episodeWinPct": 33.0
+      },
+      {
+        "id": 69,
+        "name": "Josh Widdicombe",
+        "totalPoints": 131,
+        "pointsPerTask": 2.79,
+        "episodeWinPct": 38.0
+      },
+      {
+        "id": 15,
+        "name": "Roisin Conaty",
+        "totalPoints": 68,
+        "pointsPerTask": 2.13,
+        "episodeWinPct": 17.0
+      },
+      {
+        "id": 48,
+        "name": "Romesh Ranganathan",
+        "totalPoints": 93,
+        "pointsPerTask": 2.74,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 34,
+        "name": "Tim Key",
+        "totalPoints": 88,
+        "pointsPerTask": 2.75,
+        "episodeWinPct": 13.0
+      }
+    ],
+    "winner": {
+      "id": 69,
+      "name": "Josh Widdicombe"
+    }
+  },
+  {
+    "seriesNumber": 2,
+    "year": 2016,
+    "episodes": 5,
+    "contestants": [
+      {
+        "id": 11,
+        "name": "Doc Brown",
+        "totalPoints": 78,
+        "pointsPerTask": 2.79,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 70,
+        "name": "Joe Wilkinson",
+        "totalPoints": 69,
+        "pointsPerTask": 2.46,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 49,
+        "name": "Jon Richardson",
+        "totalPoints": 90,
+        "pointsPerTask": 3.21,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 52,
+        "name": "Katherine Ryan",
+        "totalPoints": 129,
+        "pointsPerTask": 3.39,
+        "episodeWinPct": 29.0
+      },
+      {
+        "id": 44,
+        "name": "Richard Osman",
+        "totalPoints": 86,
+        "pointsPerTask": 3.07,
+        "episodeWinPct": 40.0
+      }
+    ],
+    "winner": {
+      "id": 49,
+      "name": "Jon Richardson"
+    }
+  },
+  {
+    "seriesNumber": 3,
+    "year": 2016,
+    "episodes": 5,
+    "contestants": [
+      {
+        "id": 43,
+        "name": "Al Murray",
+        "totalPoints": 80,
+        "pointsPerTask": 2.96,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 27,
+        "name": "Dave Gorman",
+        "totalPoints": 81,
+        "pointsPerTask": 3.0,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 13,
+        "name": "Paul Chowdhry",
+        "totalPoints": 66,
+        "pointsPerTask": 2.36,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 8,
+        "name": "Rob Beckett",
+        "totalPoints": 123,
+        "pointsPerTask": 3.32,
+        "episodeWinPct": 29.0
+      },
+      {
+        "id": 46,
+        "name": "Sara Pascoe",
+        "totalPoints": 72,
+        "pointsPerTask": 2.67,
+        "episodeWinPct": 0.0
+      }
+    ],
+    "winner": {
+      "id": 8,
+      "name": "Rob Beckett"
+    }
+  },
+  {
+    "seriesNumber": 4,
+    "year": 2017,
+    "episodes": 8,
+    "contestants": [
+      {
+        "id": 20,
+        "name": "Hugh Dennis",
+        "totalPoints": 129,
+        "pointsPerTask": 2.69,
+        "episodeWinPct": 13.0
+      },
+      {
+        "id": 40,
+        "name": "Joe Lycett",
+        "totalPoints": 136,
+        "pointsPerTask": 2.83,
+        "episodeWinPct": 25.0
+      },
+      {
+        "id": 2,
+        "name": "Lolly Adefope",
+        "totalPoints": 125,
+        "pointsPerTask": 2.66,
+        "episodeWinPct": 13.0
+      },
+      {
+        "id": 24,
+        "name": "Mel Giedroyc",
+        "totalPoints": 134,
+        "pointsPerTask": 2.68,
+        "episodeWinPct": 38.0
+      },
+      {
+        "id": 21,
+        "name": "Noel Fielding",
+        "totalPoints": 176,
+        "pointsPerTask": 3.09,
+        "episodeWinPct": 10.0
+      }
+    ],
+    "winner": {
+      "id": 21,
+      "name": "Noel Fielding"
+    }
+  },
+  {
+    "seriesNumber": 5,
+    "year": 2017,
+    "episodes": 8,
+    "contestants": [
+      {
+        "id": 7,
+        "name": "Aisling Bea",
+        "totalPoints": 126,
+        "pointsPerTask": 2.74,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 42,
+        "name": "Bob Mortimer",
+        "totalPoints": 162,
+        "pointsPerTask": 2.95,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 65,
+        "name": "Mark Watson",
+        "totalPoints": 130,
+        "pointsPerTask": 2.83,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 36,
+        "name": "Nish Kumar",
+        "totalPoints": 107,
+        "pointsPerTask": 2.43,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 47,
+        "name": "Sally Phillips",
+        "totalPoints": 130,
+        "pointsPerTask": 2.83,
+        "episodeWinPct": 38.0
+      }
+    ],
+    "winner": {
+      "id": 42,
+      "name": "Bob Mortimer"
+    }
+  },
+  {
+    "seriesNumber": 6,
+    "year": 2018,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 39,
+        "name": "Alice Levine",
+        "totalPoints": 152,
+        "pointsPerTask": 2.62,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 12,
+        "name": "Asim Chaudhry",
+        "totalPoints": 159,
+        "pointsPerTask": 2.79,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 59,
+        "name": "Liza Tarbuck",
+        "totalPoints": 195,
+        "pointsPerTask": 3.05,
+        "episodeWinPct": 18.0
+      },
+      {
+        "id": 33,
+        "name": "Russell Howard",
+        "totalPoints": 170,
+        "pointsPerTask": 2.88,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 63,
+        "name": "Tim Vine",
+        "totalPoints": 175,
+        "pointsPerTask": 3.07,
+        "episodeWinPct": 20.0
+      }
+    ],
+    "winner": {
+      "id": 59,
+      "name": "Liza Tarbuck"
+    }
+  },
+  {
+    "seriesNumber": 7,
+    "year": 2018,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 1,
+        "name": "James Acaster",
+        "totalPoints": 165,
+        "pointsPerTask": 2.89,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 35,
+        "name": "Jessica Knappett",
+        "totalPoints": 175,
+        "pointsPerTask": 3.07,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 26,
+        "name": "Kerry Godliman",
+        "totalPoints": 188,
+        "pointsPerTask": 2.98,
+        "episodeWinPct": 27.0
+      },
+      {
+        "id": 64,
+        "name": "Phil Wang",
+        "totalPoints": 133,
+        "pointsPerTask": 2.38,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 25,
+        "name": "Rhod Gilbert",
+        "totalPoints": 167,
+        "pointsPerTask": 2.93,
+        "episodeWinPct": 30.0
+      }
+    ],
+    "winner": {
+      "id": 26,
+      "name": "Kerry Godliman"
+    }
+  },
+  {
+    "seriesNumber": 8,
+    "year": 2019,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 57,
+        "name": "Iain Stirling",
+        "totalPoints": 156,
+        "pointsPerTask": 2.84,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 60,
+        "name": "Joe Thomas",
+        "totalPoints": 150,
+        "pointsPerTask": 2.73,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 54,
+        "name": "Lou Sanders",
+        "totalPoints": 176,
+        "pointsPerTask": 2.84,
+        "episodeWinPct": 27.0
+      },
+      {
+        "id": 55,
+        "name": "Paul Sinha",
+        "totalPoints": 136,
+        "pointsPerTask": 2.52,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 23,
+        "name": "Sian Gibson",
+        "totalPoints": 143,
+        "pointsPerTask": 2.6,
+        "episodeWinPct": 20.0
+      }
+    ],
+    "winner": {
+      "id": 54,
+      "name": "Lou Sanders"
+    }
+  },
+  {
+    "seriesNumber": 10,
+    "year": 2020,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 16,
+        "name": "Daisy May Cooper",
+        "totalPoints": 158,
+        "pointsPerTask": 3.1,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 61,
+        "name": "Johnny Vegas",
+        "totalPoints": 139,
+        "pointsPerTask": 2.67,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 45,
+        "name": "Katherine Parkinson",
+        "totalPoints": 118,
+        "pointsPerTask": 2.27,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 51,
+        "name": "Mawaan Rizwan",
+        "totalPoints": 151,
+        "pointsPerTask": 2.85,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 31,
+        "name": "Richard Herring",
+        "totalPoints": 179,
+        "pointsPerTask": 3.03,
+        "episodeWinPct": 55.0
+      }
+    ],
+    "winner": {
+      "id": 31,
+      "name": "Richard Herring"
+    }
+  }
+]

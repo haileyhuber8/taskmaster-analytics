@@ -1,0 +1,102 @@
+{
+  "totalContestants": 45,
+  "totalSeasons": 9,
+  "winners": {
+    "count": 9,
+    "avgPointsPerTask": 3.05,
+    "avgPointsPerEpisode": 17.03,
+    "avgEpisodeWinPct": 29.22,
+    "avgTaskWinPct": 28.33,
+    "byTaskType": {
+      "prize": 3.17,
+      "filmed": 2.97,
+      "live": 3.12
+    },
+    "byActivity": {
+      "creative": 3.12,
+      "mental": 2.97,
+      "physical": 3.16,
+      "social": 2.84
+    },
+    "byJudgement": {
+      "objective": 2.99,
+      "subjective": 0,
+      "combo": 0
+    }
+  },
+  "nonWinners": {
+    "count": 36,
+    "avgPointsPerTask": 2.75,
+    "avgPointsPerEpisode": 15.07,
+    "avgEpisodeWinPct": 20.67,
+    "avgTaskWinPct": 24.64,
+    "byTaskType": {
+      "prize": 2.93,
+      "filmed": 2.71,
+      "live": 2.69
+    },
+    "byActivity": {
+      "creative": 2.91,
+      "mental": 2.63,
+      "physical": 2.66,
+      "social": 2.58
+    },
+    "byJudgement": {
+      "objective": 2.63,
+      "subjective": 0,
+      "combo": 0
+    }
+  },
+  "seasonWinners": [
+    {
+      "season": 1,
+      "name": "Josh Widdicombe",
+      "id": 69
+    },
+    {
+      "season": 2,
+      "name": "Jon Richardson",
+      "id": 49
+    },
+    {
+      "season": 3,
+      "name": "Rob Beckett",
+      "id": 8
+    },
+    {
+      "season": 4,
+      "name": "Noel Fielding",
+      "id": 21
+    },
+    {
+      "season": 5,
+      "name": "Bob Mortimer",
+      "id": 42
+    },
+    {
+      "season": 6,
+      "name": "Liza Tarbuck",
+      "id": 59
+    },
+    {
+      "season": 7,
+      "name": "Kerry Godliman",
+      "id": 26
+    },
+    {
+      "season": 8,
+      "name": "Lou Sanders",
+      "id": 54
+    },
+    {
+      "season": 10,
+      "name": "Richard Herring",
+      "id": 31
+    }
+  ],
+  "keyInsights": [
+    "Comparing season winners vs non-winners across all task categories",
+    "Task type performance correlations with series victory",
+    "Episode win percentage patterns for champions"
+  ]
+}

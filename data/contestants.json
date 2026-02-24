@@ -1,0 +1,5457 @@
+[
+  {
+    "id": 1,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 3,
+    "episodeWinPct": 30.0,
+    "basePoints": 164,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 165,
+    "pointsPerEpisode": 16.5,
+    "tasksAttempted": 57,
+    "tasksWon": 18,
+    "taskWinPct": 32.0,
+    "pointsPerTask": 2.89,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 51,
+          "won": 15,
+          "winPct": 29.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 2,
+          "won": 2,
+          "winPct": 100.0,
+          "ppt": 3.5
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.3
+        },
+        "filmed": {
+          "attempted": 36,
+          "won": 14,
+          "winPct": 39.0,
+          "ppt": 3.2
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 26,
+          "won": 9,
+          "winPct": 35.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 8,
+          "winPct": 33.0,
+          "ppt": 3.3
+        },
+        "physical": {
+          "attempted": 33,
+          "won": 9,
+          "winPct": 27.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 2.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 30,
+          "won": 8,
+          "winPct": 27.0,
+          "ppt": 3.0
+        }
+      }
+    },
+    "name": "James Acaster",
+    "seasonIds": [
+      7
+    ]
+  },
+  {
+    "id": 2,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 1,
+    "episodeWinPct": 13.0,
+    "basePoints": 123,
+    "bonusPoints": 2,
+    "pointsDeducted": 0,
+    "totalPoints": 125,
+    "pointsPerEpisode": 15.6,
+    "tasksAttempted": 47,
+    "tasksWon": 10,
+    "taskWinPct": 21.0,
+    "pointsPerTask": 2.66,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 43,
+          "won": 9,
+          "winPct": 21.0,
+          "ppt": 2.8
+        },
+        "team": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 1.3
+        },
+        "split": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 4,
+          "winPct": 50.0,
+          "ppt": 4.3
+        },
+        "filmed": {
+          "attempted": 31,
+          "won": 5,
+          "winPct": 16.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 2.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 4,
+          "winPct": 20.0,
+          "ppt": 2.9
+        },
+        "mental": {
+          "attempted": 18,
+          "won": 4,
+          "winPct": 22.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 29,
+          "won": 5,
+          "winPct": 17.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 9,
+          "won": 3,
+          "winPct": 33.0,
+          "ppt": 3.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 27,
+          "won": 6,
+          "winPct": 22.0,
+          "ppt": 2.4
+        }
+      }
+    },
+    "name": "Lolly Adefope",
+    "seasonIds": [
+      4
+    ]
+  },
+  {
+    "id": 6,
+    "seasonWins": 0,
+    "episodes": 1,
+    "episodeWins": 1,
+    "episodeWinPct": 100.0,
+    "basePoints": 18,
+    "bonusPoints": 0,
+    "pointsDeducted": -1,
+    "totalPoints": 17,
+    "pointsPerEpisode": 17.0,
+    "tasksAttempted": 5,
+    "tasksWon": 2,
+    "taskWinPct": 40.0,
+    "pointsPerTask": 3.4,
+    "dqs": 0,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 3.4
+        },
+        "team": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "filmed": {
+          "attempted": 3,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.7
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 4.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 3.0
+        },
+        "physical": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 3.0
+        }
+      }
+    },
+    "name": "Shirley Ballas",
+    "seasonIds": [
+      12
+    ]
+  },
+  {
+    "id": 7,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 126,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 126,
+    "pointsPerEpisode": 15.8,
+    "tasksAttempted": 46,
+    "tasksWon": 11,
+    "taskWinPct": 24.0,
+    "pointsPerTask": 2.74,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 43,
+          "won": 10,
+          "winPct": 23.0,
+          "ppt": 2.8
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.3
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 3.3
+        },
+        "filmed": {
+          "attempted": 30,
+          "won": 6,
+          "winPct": 20.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 4,
+          "winPct": 50.0,
+          "ppt": 3.4
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 21,
+          "won": 5,
+          "winPct": 24.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 23,
+          "won": 7,
+          "winPct": 30.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 25,
+          "won": 7,
+          "winPct": 28.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 6,
+          "won": 1,
+          "winPct": 17.0,
+          "ppt": 2.2
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 25,
+          "won": 6,
+          "winPct": 24.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Aisling Bea",
+    "seasonIds": [
+      5
+    ]
+  },
+  {
+    "id": 8,
+    "seasonWins": 1,
+    "episodes": 7,
+    "episodeWins": 2,
+    "episodeWinPct": 29.0,
+    "basePoints": 123,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 123,
+    "pointsPerEpisode": 17.6,
+    "tasksAttempted": 37,
+    "tasksWon": 10,
+    "taskWinPct": 27.0,
+    "pointsPerTask": 3.32,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 34,
+          "won": 9,
+          "winPct": 26.0,
+          "ppt": 3.4
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.3
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 7,
+          "won": 2,
+          "winPct": 29.0,
+          "ppt": 3.4
+        },
+        "filmed": {
+          "attempted": 22,
+          "won": 6,
+          "winPct": 27.0,
+          "ppt": 3.3
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 4.0
+        },
+        "live": {
+          "attempted": 7,
+          "won": 2,
+          "winPct": 29.0,
+          "ppt": 3.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 16,
+          "won": 4,
+          "winPct": 25.0,
+          "ppt": 3.1
+        },
+        "mental": {
+          "attempted": 16,
+          "won": 5,
+          "winPct": 31.0,
+          "ppt": 3.7
+        },
+        "physical": {
+          "attempted": 16,
+          "won": 4,
+          "winPct": 25.0,
+          "ppt": 3.6
+        },
+        "social": {
+          "attempted": 6,
+          "won": 2,
+          "winPct": 33.0,
+          "ppt": 3.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 19,
+          "won": 5,
+          "winPct": 26.0,
+          "ppt": 3.4
+        }
+      }
+    },
+    "name": "Rob Beckett",
+    "seasonIds": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": 11,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 1,
+    "episodeWinPct": 20.0,
+    "basePoints": 77,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 78,
+    "pointsPerEpisode": 15.6,
+    "tasksAttempted": 28,
+    "tasksWon": 4,
+    "taskWinPct": 14.0,
+    "pointsPerTask": 2.79,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 25,
+          "won": 3,
+          "winPct": 12.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 3.4
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.3
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 4.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 9,
+          "won": 2,
+          "winPct": 22.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 11,
+          "won": 1,
+          "winPct": 9.0,
+          "ppt": 1.7
+        },
+        "physical": {
+          "attempted": 14,
+          "won": 2,
+          "winPct": 14.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 2.1
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 1,
+          "winPct": 7.0,
+          "ppt": 2.6
+        }
+      }
+    },
+    "name": "Doc Brown",
+    "seasonIds": [
+      2
+    ]
+  },
+  {
+    "id": 12,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 158,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 159,
+    "pointsPerEpisode": 15.9,
+    "tasksAttempted": 57,
+    "tasksWon": 14,
+    "taskWinPct": 25.0,
+    "pointsPerTask": 2.79,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 50,
+          "won": 10,
+          "winPct": 20.0,
+          "ppt": 2.7
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 3.3
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.3
+        },
+        "filmed": {
+          "attempted": 35,
+          "won": 10,
+          "winPct": 29.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 4.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 28,
+          "won": 6,
+          "winPct": 21.0,
+          "ppt": 2.4
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 5,
+          "winPct": 21.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 31,
+          "won": 8,
+          "winPct": 26.0,
+          "ppt": 2.7
+        },
+        "social": {
+          "attempted": 10,
+          "won": 4,
+          "winPct": 40.0,
+          "ppt": 2.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 31,
+          "won": 7,
+          "winPct": 23.0,
+          "ppt": 3.0
+        }
+      }
+    },
+    "name": "Asim Chaudhry",
+    "seasonIds": [
+      6
+    ]
+  },
+  {
+    "id": 13,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 1,
+    "episodeWinPct": 20.0,
+    "basePoints": 66,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 66,
+    "pointsPerEpisode": 13.2,
+    "tasksAttempted": 28,
+    "tasksWon": 6,
+    "taskWinPct": 21.0,
+    "pointsPerTask": 2.36,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 25,
+          "won": 4,
+          "winPct": 16.0,
+          "ppt": 2.3
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.6
+        },
+        "filmed": {
+          "attempted": 17,
+          "won": 5,
+          "winPct": 29.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 13,
+          "won": 4,
+          "winPct": 31.0,
+          "ppt": 2.5
+        },
+        "mental": {
+          "attempted": 12,
+          "won": 3,
+          "winPct": 25.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 12,
+          "won": 3,
+          "winPct": 25.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 6,
+          "won": 2,
+          "winPct": 33.0,
+          "ppt": 2.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.3
+        }
+      }
+    },
+    "name": "Paul Chowdhry",
+    "seasonIds": [
+      3
+    ]
+  },
+  {
+    "id": 14,
+    "seasonWins": 0,
+    "episodes": 1,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 13,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 13,
+    "pointsPerEpisode": 13.0,
+    "tasksAttempted": 5,
+    "tasksWon": 2,
+    "taskWinPct": 40.0,
+    "pointsPerTask": 2.6,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.3
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 4.0
+        },
+        "mental": {
+          "attempted": 4,
+          "won": 2,
+          "winPct": 50.0,
+          "ppt": 2.5
+        },
+        "physical": {
+          "attempted": 4,
+          "won": 2,
+          "winPct": 50.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 4,
+          "won": 2,
+          "winPct": 50.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Rylan Clark-Neal",
+    "seasonIds": [
+      12
+    ]
+  },
+  {
+    "id": 15,
+    "seasonWins": 0,
+    "episodes": 6,
+    "episodeWins": 1,
+    "episodeWinPct": 17.0,
+    "basePoints": 68,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 68,
+    "pointsPerEpisode": 11.3,
+    "tasksAttempted": 32,
+    "tasksWon": 7,
+    "taskWinPct": 22.0,
+    "pointsPerTask": 2.13,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 29,
+          "won": 6,
+          "winPct": 21.0,
+          "ppt": 2.3
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 0.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 6,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.7
+        },
+        "filmed": {
+          "attempted": 18,
+          "won": 4,
+          "winPct": 22.0,
+          "ppt": 2.1
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 2.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 11,
+          "won": 1,
+          "winPct": 9.0,
+          "ppt": 1.6
+        },
+        "mental": {
+          "attempted": 14,
+          "won": 6,
+          "winPct": 43.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 15,
+          "won": 3,
+          "winPct": 20.0,
+          "ppt": 2.0
+        },
+        "social": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 2.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 21,
+          "won": 6,
+          "winPct": 29.0,
+          "ppt": 2.2
+        }
+      }
+    },
+    "name": "Roisin Conaty",
+    "seasonIds": [
+      1
+    ]
+  },
+  {
+    "id": 16,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 2,
+    "episodeWinPct": 20.0,
+    "basePoints": 157,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 158,
+    "pointsPerEpisode": 15.8,
+    "tasksAttempted": 51,
+    "tasksWon": 17,
+    "taskWinPct": 33.0,
+    "pointsPerTask": 3.1,
+    "dqs": 7,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 44,
+          "won": 14,
+          "winPct": 32.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 7,
+          "won": 3,
+          "winPct": 43.0,
+          "ppt": 3.4
+        },
+        "split": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 3.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.5
+        },
+        "filmed": {
+          "attempted": 30,
+          "won": 11,
+          "winPct": 37.0,
+          "ppt": 3.1
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 4,
+          "winPct": 40.0,
+          "ppt": 3.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 5,
+          "winPct": 22.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 9,
+          "winPct": 38.0,
+          "ppt": 3.3
+        },
+        "physical": {
+          "attempted": 24,
+          "won": 8,
+          "winPct": 33.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 9,
+          "won": 5,
+          "winPct": 56.0,
+          "ppt": 3.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 12,
+          "winPct": 38.0,
+          "ppt": 3.2
+        }
+      }
+    },
+    "name": "Daisy May Cooper",
+    "seasonIds": [
+      10
+    ]
+  },
+  {
+    "id": 18,
+    "seasonWins": 0,
+    "episodes": 1,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 11,
+    "bonusPoints": 0,
+    "pointsDeducted": -1,
+    "totalPoints": 10,
+    "pointsPerEpisode": 10.0,
+    "tasksAttempted": 5,
+    "tasksWon": 0,
+    "taskWinPct": 0.0,
+    "pointsPerTask": 2.0,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "team": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 4.0
+        },
+        "filmed": {
+          "attempted": 3,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.0
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.5
+        },
+        "physical": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.5
+        },
+        "social": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.5
+        }
+      }
+    },
+    "name": "Nicola Coughlan",
+    "seasonIds": [
+      12
+    ]
+  },
+  {
+    "id": 20,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 1,
+    "episodeWinPct": 13.0,
+    "basePoints": 127,
+    "bonusPoints": 2,
+    "pointsDeducted": 0,
+    "totalPoints": 129,
+    "pointsPerEpisode": 16.1,
+    "tasksAttempted": 48,
+    "tasksWon": 12,
+    "taskWinPct": 25.0,
+    "pointsPerTask": 2.69,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 44,
+          "won": 9,
+          "winPct": 20.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 4,
+          "won": 3,
+          "winPct": 75.0,
+          "ppt": 3.8
+        },
+        "split": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 4.0
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 1.6
+        },
+        "filmed": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 2.9
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 3,
+          "winPct": 15.0,
+          "ppt": 1.9
+        },
+        "mental": {
+          "attempted": 18,
+          "won": 3,
+          "winPct": 17.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 30,
+          "won": 10,
+          "winPct": 33.0,
+          "ppt": 3.3
+        },
+        "social": {
+          "attempted": 9,
+          "won": 2,
+          "winPct": 22.0,
+          "ppt": 2.6
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 28,
+          "won": 9,
+          "winPct": 32.0,
+          "ppt": 3.1
+        }
+      }
+    },
+    "name": "Hugh Dennis",
+    "seasonIds": [
+      4
+    ]
+  },
+  {
+    "id": 21,
+    "seasonWins": 1,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 173,
+    "bonusPoints": 3,
+    "pointsDeducted": 0,
+    "totalPoints": 176,
+    "pointsPerEpisode": 17.6,
+    "tasksAttempted": 57,
+    "tasksWon": 18,
+    "taskWinPct": 32.0,
+    "pointsPerTask": 3.09,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 53,
+          "won": 17,
+          "winPct": 32.0,
+          "ppt": 3.2
+        },
+        "team": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 1.3
+        },
+        "split": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 3.5
+        },
+        "filmed": {
+          "attempted": 37,
+          "won": 13,
+          "winPct": 35.0,
+          "ppt": 3.2
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 24,
+          "won": 9,
+          "winPct": 38.0,
+          "ppt": 3.7
+        },
+        "mental": {
+          "attempted": 22,
+          "won": 8,
+          "winPct": 36.0,
+          "ppt": 3.1
+        },
+        "physical": {
+          "attempted": 34,
+          "won": 10,
+          "winPct": 29.0,
+          "ppt": 2.9
+        },
+        "social": {
+          "attempted": 9,
+          "won": 4,
+          "winPct": 44.0,
+          "ppt": 2.9
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 31,
+          "won": 9,
+          "winPct": 29.0,
+          "ppt": 2.6
+        }
+      }
+    },
+    "name": "Noel Fielding",
+    "seasonIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 23,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 2,
+    "episodeWinPct": 20.0,
+    "basePoints": 143,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 143,
+    "pointsPerEpisode": 14.3,
+    "tasksAttempted": 55,
+    "tasksWon": 14,
+    "taskWinPct": 25.0,
+    "pointsPerTask": 2.6,
+    "dqs": 4,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 47,
+          "won": 9,
+          "winPct": 19.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 8,
+          "won": 5,
+          "winPct": 63.0,
+          "ppt": 2.9
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 3.2
+        },
+        "filmed": {
+          "attempted": 34,
+          "won": 10,
+          "winPct": 29.0,
+          "ppt": 2.8
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 1.4
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 8,
+          "winPct": 35.0,
+          "ppt": 3.2
+        },
+        "mental": {
+          "attempted": 20,
+          "won": 3,
+          "winPct": 15.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 29,
+          "won": 4,
+          "winPct": 14.0,
+          "ppt": 2.1
+        },
+        "social": {
+          "attempted": 11,
+          "won": 7,
+          "winPct": 64.0,
+          "ppt": 3.5
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 7,
+          "winPct": 22.0,
+          "ppt": 2.3
+        }
+      }
+    },
+    "name": "Sian Gibson",
+    "seasonIds": [
+      8
+    ]
+  },
+  {
+    "id": 24,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 3,
+    "episodeWinPct": 38.0,
+    "basePoints": 137,
+    "bonusPoints": 2,
+    "pointsDeducted": -5,
+    "totalPoints": 134,
+    "pointsPerEpisode": 16.8,
+    "tasksAttempted": 50,
+    "tasksWon": 16,
+    "taskWinPct": 32.0,
+    "pointsPerTask": 2.68,
+    "dqs": 0,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 46,
+          "won": 13,
+          "winPct": 28.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 4,
+          "won": 3,
+          "winPct": 75.0,
+          "ppt": 3.8
+        },
+        "split": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 3.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.3
+        },
+        "filmed": {
+          "attempted": 34,
+          "won": 12,
+          "winPct": 35.0,
+          "ppt": 2.6
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 4,
+          "winPct": 50.0,
+          "ppt": 3.4
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 5,
+          "winPct": 25.0,
+          "ppt": 2.9
+        },
+        "mental": {
+          "attempted": 18,
+          "won": 4,
+          "winPct": 22.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 13,
+          "winPct": 41.0,
+          "ppt": 2.8
+        },
+        "social": {
+          "attempted": 9,
+          "won": 3,
+          "winPct": 33.0,
+          "ppt": 3.4
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 27,
+          "won": 8,
+          "winPct": 30.0,
+          "ppt": 2.9
+        }
+      }
+    },
+    "name": "Mel Giedroyc",
+    "seasonIds": [
+      4
+    ]
+  },
+  {
+    "id": 25,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 3,
+    "episodeWinPct": 30.0,
+    "basePoints": 167,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 167,
+    "pointsPerEpisode": 16.7,
+    "tasksAttempted": 57,
+    "tasksWon": 20,
+    "taskWinPct": 35.0,
+    "pointsPerTask": 2.93,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 51,
+          "won": 17,
+          "winPct": 33.0,
+          "ppt": 3.1
+        },
+        "team": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 1.8
+        },
+        "split": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 3.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 36,
+          "won": 13,
+          "winPct": 36.0,
+          "ppt": 3.0
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 4,
+          "winPct": 40.0,
+          "ppt": 3.1
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 26,
+          "won": 9,
+          "winPct": 35.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 8,
+          "winPct": 33.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 33,
+          "won": 13,
+          "winPct": 39.0,
+          "ppt": 2.9
+        },
+        "social": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 1.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 30,
+          "won": 11,
+          "winPct": 37.0,
+          "ppt": 2.8
+        }
+      }
+    },
+    "name": "Rhod Gilbert",
+    "seasonIds": [
+      7
+    ]
+  },
+  {
+    "id": 26,
+    "seasonWins": 1,
+    "episodes": 11,
+    "episodeWins": 3,
+    "episodeWinPct": 27.0,
+    "basePoints": 188,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 188,
+    "pointsPerEpisode": 17.1,
+    "tasksAttempted": 63,
+    "tasksWon": 16,
+    "taskWinPct": 25.0,
+    "pointsPerTask": 2.98,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 57,
+          "won": 13,
+          "winPct": 23.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 3.3
+        },
+        "split": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 3.5
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 11,
+          "won": 4,
+          "winPct": 36.0,
+          "ppt": 3.2
+        },
+        "filmed": {
+          "attempted": 40,
+          "won": 9,
+          "winPct": 23.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 3.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 29,
+          "won": 6,
+          "winPct": 21.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 27,
+          "won": 8,
+          "winPct": 30.0,
+          "ppt": 3.3
+        },
+        "physical": {
+          "attempted": 34,
+          "won": 10,
+          "winPct": 29.0,
+          "ppt": 3.1
+        },
+        "social": {
+          "attempted": 11,
+          "won": 4,
+          "winPct": 36.0,
+          "ppt": 3.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 3.2
+        }
+      }
+    },
+    "name": "Kerry Godliman",
+    "seasonIds": [
+      7
+    ]
+  },
+  {
+    "id": 27,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 1,
+    "episodeWinPct": 20.0,
+    "basePoints": 81,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 81,
+    "pointsPerEpisode": 16.2,
+    "tasksAttempted": 27,
+    "tasksWon": 7,
+    "taskWinPct": 26.0,
+    "pointsPerTask": 3.0,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 24,
+          "won": 5,
+          "winPct": 21.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 3.4
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 4,
+          "winPct": 25.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 12,
+          "won": 5,
+          "winPct": 42.0,
+          "ppt": 3.6
+        },
+        "mental": {
+          "attempted": 12,
+          "won": 1,
+          "winPct": 8.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 11,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 3.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Dave Gorman",
+    "seasonIds": [
+      3
+    ]
+  },
+  {
+    "id": 28,
+    "seasonWins": 0,
+    "episodes": 1,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 13,
+    "bonusPoints": 0,
+    "pointsDeducted": -1,
+    "totalPoints": 12,
+    "pointsPerEpisode": 12.0,
+    "tasksAttempted": 5,
+    "tasksWon": 0,
+    "taskWinPct": 0.0,
+    "pointsPerTask": 2.4,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.4
+        },
+        "team": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "filmed": {
+          "attempted": 3,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.7
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": -1.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "physical": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 4,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Krishnan Guru-Murthy",
+    "seasonIds": [
+      12
+    ]
+  },
+  {
+    "id": 30,
+    "seasonWins": 0,
+    "episodes": 1,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 15,
+    "bonusPoints": 0,
+    "pointsDeducted": -5,
+    "totalPoints": 10,
+    "pointsPerEpisode": 10.0,
+    "tasksAttempted": 5,
+    "tasksWon": 1,
+    "taskWinPct": 20.0,
+    "pointsPerTask": 2.0,
+    "dqs": 0,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.0
+        },
+        "team": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.0
+        },
+        "filmed": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 3.3
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": -1.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "mental": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 2.3
+        },
+        "social": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 2.3
+        }
+      }
+    },
+    "name": "John Hannah",
+    "seasonIds": [
+      12
+    ]
+  },
+  {
+    "id": 31,
+    "seasonWins": 1,
+    "episodes": 11,
+    "episodeWins": 6,
+    "episodeWinPct": 55.0,
+    "basePoints": 179,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 179,
+    "pointsPerEpisode": 16.3,
+    "tasksAttempted": 59,
+    "tasksWon": 17,
+    "taskWinPct": 29.0,
+    "pointsPerTask": 3.03,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 52,
+          "won": 13,
+          "winPct": 25.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 3.7
+        },
+        "split": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 3.0
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 3.3
+        },
+        "filmed": {
+          "attempted": 36,
+          "won": 7,
+          "winPct": 19.0,
+          "ppt": 2.6
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 4.0
+        },
+        "live": {
+          "attempted": 11,
+          "won": 7,
+          "winPct": 64.0,
+          "ppt": 4.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 27,
+          "won": 9,
+          "winPct": 33.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 27,
+          "won": 8,
+          "winPct": 30.0,
+          "ppt": 3.2
+        },
+        "physical": {
+          "attempted": 27,
+          "won": 5,
+          "winPct": 19.0,
+          "ppt": 2.9
+        },
+        "social": {
+          "attempted": 10,
+          "won": 5,
+          "winPct": 50.0,
+          "ppt": 3.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 36,
+          "won": 10,
+          "winPct": 28.0,
+          "ppt": 3.1
+        }
+      }
+    },
+    "name": "Richard Herring",
+    "seasonIds": [
+      10
+    ]
+  },
+  {
+    "id": 33,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 3,
+    "episodeWinPct": 30.0,
+    "basePoints": 169,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 170,
+    "pointsPerEpisode": 17.0,
+    "tasksAttempted": 59,
+    "tasksWon": 17,
+    "taskWinPct": 29.0,
+    "pointsPerTask": 2.88,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 52,
+          "won": 13,
+          "winPct": 25.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 2.9
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 37,
+          "won": 12,
+          "winPct": 32.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "live": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 2.7
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 28,
+          "won": 6,
+          "winPct": 21.0,
+          "ppt": 2.9
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 7,
+          "winPct": 29.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 11,
+          "winPct": 34.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 11,
+          "won": 4,
+          "winPct": 36.0,
+          "ppt": 2.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 33,
+          "won": 13,
+          "winPct": 39.0,
+          "ppt": 2.9
+        }
+      }
+    },
+    "name": "Russell Howard",
+    "seasonIds": [
+      6
+    ]
+  },
+  {
+    "id": 34,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 1,
+    "episodeWinPct": 13.0,
+    "basePoints": 87,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 88,
+    "pointsPerEpisode": 11.0,
+    "tasksAttempted": 32,
+    "tasksWon": 12,
+    "taskWinPct": 38.0,
+    "pointsPerTask": 2.75,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 29,
+          "won": 10,
+          "winPct": 34.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 1.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 6,
+          "won": 4,
+          "winPct": 67.0,
+          "ppt": 4.2
+        },
+        "filmed": {
+          "attempted": 18,
+          "won": 4,
+          "winPct": 22.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 1.0
+        },
+        "live": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 2.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 11,
+          "won": 5,
+          "winPct": 45.0,
+          "ppt": 3.5
+        },
+        "mental": {
+          "attempted": 14,
+          "won": 4,
+          "winPct": 29.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 15,
+          "won": 5,
+          "winPct": 33.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 1.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 21,
+          "won": 7,
+          "winPct": 33.0,
+          "ppt": 2.4
+        }
+      }
+    },
+    "name": "Tim Key",
+    "seasonIds": [
+      1
+    ]
+  },
+  {
+    "id": 35,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 173,
+    "bonusPoints": 2,
+    "pointsDeducted": 0,
+    "totalPoints": 175,
+    "pointsPerEpisode": 17.5,
+    "tasksAttempted": 57,
+    "tasksWon": 12,
+    "taskWinPct": 21.0,
+    "pointsPerTask": 3.07,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 51,
+          "won": 9,
+          "winPct": 18.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 3.3
+        },
+        "split": {
+          "attempted": 2,
+          "won": 2,
+          "winPct": 100.0,
+          "ppt": 4.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.6
+        },
+        "filmed": {
+          "attempted": 36,
+          "won": 7,
+          "winPct": 19.0,
+          "ppt": 3.2
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 25,
+          "won": 4,
+          "winPct": 16.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 25,
+          "won": 5,
+          "winPct": 20.0,
+          "ppt": 3.0
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 7,
+          "winPct": 22.0,
+          "ppt": 3.1
+        },
+        "social": {
+          "attempted": 10,
+          "won": 7,
+          "winPct": 70.0,
+          "ppt": 4.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 30,
+          "won": 6,
+          "winPct": 20.0,
+          "ppt": 3.1
+        }
+      }
+    },
+    "name": "Jessica Knappett",
+    "seasonIds": [
+      7
+    ]
+  },
+  {
+    "id": 36,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 107,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 107,
+    "pointsPerEpisode": 13.4,
+    "tasksAttempted": 44,
+    "tasksWon": 9,
+    "taskWinPct": 20.0,
+    "pointsPerTask": 2.43,
+    "dqs": 6,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 41,
+          "won": 7,
+          "winPct": 17.0,
+          "ppt": 2.4
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.1
+        },
+        "filmed": {
+          "attempted": 28,
+          "won": 8,
+          "winPct": 29.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 2.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 6,
+          "winPct": 30.0,
+          "ppt": 2.7
+        },
+        "mental": {
+          "attempted": 23,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 24,
+          "won": 5,
+          "winPct": 21.0,
+          "ppt": 2.4
+        },
+        "social": {
+          "attempted": 6,
+          "won": 1,
+          "winPct": 17.0,
+          "ppt": 2.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 24,
+          "won": 3,
+          "winPct": 13.0,
+          "ppt": 2.2
+        }
+      }
+    },
+    "name": "Nish Kumar",
+    "seasonIds": [
+      5
+    ]
+  },
+  {
+    "id": 39,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 2,
+    "episodeWinPct": 20.0,
+    "basePoints": 152,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 152,
+    "pointsPerEpisode": 15.2,
+    "tasksAttempted": 58,
+    "tasksWon": 13,
+    "taskWinPct": 22.0,
+    "pointsPerTask": 2.62,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 51,
+          "won": 9,
+          "winPct": 18.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 2.9
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.4
+        },
+        "filmed": {
+          "attempted": 36,
+          "won": 10,
+          "winPct": 28.0,
+          "ppt": 2.7
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 2.7
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 28,
+          "won": 4,
+          "winPct": 14.0,
+          "ppt": 2.6
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 8,
+          "winPct": 33.0,
+          "ppt": 3.0
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 9,
+          "winPct": 28.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 10,
+          "won": 4,
+          "winPct": 40.0,
+          "ppt": 2.4
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 2.7
+        }
+      }
+    },
+    "name": "Alice Levine",
+    "seasonIds": [
+      6
+    ]
+  },
+  {
+    "id": 40,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 2,
+    "episodeWinPct": 25.0,
+    "basePoints": 139,
+    "bonusPoints": 2,
+    "pointsDeducted": -5,
+    "totalPoints": 136,
+    "pointsPerEpisode": 17.0,
+    "tasksAttempted": 48,
+    "tasksWon": 9,
+    "taskWinPct": 19.0,
+    "pointsPerTask": 2.83,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 44,
+          "won": 8,
+          "winPct": 18.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 4,
+          "won": 1,
+          "winPct": 25.0,
+          "ppt": 1.3
+        },
+        "split": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 2.5
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 2,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 32,
+          "won": 7,
+          "winPct": 22.0,
+          "ppt": 2.8
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 2.9
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 2,
+          "winPct": 10.0,
+          "ppt": 3.2
+        },
+        "mental": {
+          "attempted": 18,
+          "won": 4,
+          "winPct": 22.0,
+          "ppt": 3.0
+        },
+        "physical": {
+          "attempted": 30,
+          "won": 5,
+          "winPct": 17.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 9,
+          "won": 2,
+          "winPct": 22.0,
+          "ppt": 2.9
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 28,
+          "won": 7,
+          "winPct": 25.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Joe Lycett",
+    "seasonIds": [
+      4
+    ]
+  },
+  {
+    "id": 42,
+    "seasonWins": 1,
+    "episodes": 10,
+    "episodeWins": 3,
+    "episodeWinPct": 30.0,
+    "basePoints": 162,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 162,
+    "pointsPerEpisode": 16.2,
+    "tasksAttempted": 55,
+    "tasksWon": 16,
+    "taskWinPct": 29.0,
+    "pointsPerTask": 2.95,
+    "dqs": 4,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 52,
+          "won": 15,
+          "winPct": 29.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.3
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 35,
+          "won": 12,
+          "winPct": 34.0,
+          "ppt": 3.0
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 24,
+          "won": 7,
+          "winPct": 29.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 27,
+          "won": 8,
+          "winPct": 30.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 30,
+          "won": 10,
+          "winPct": 33.0,
+          "ppt": 2.9
+        },
+        "social": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 2.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 29,
+          "won": 9,
+          "winPct": 31.0,
+          "ppt": 2.8
+        }
+      }
+    },
+    "name": "Bob Mortimer",
+    "seasonIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 43,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 1,
+    "episodeWinPct": 20.0,
+    "basePoints": 80,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 80,
+    "pointsPerEpisode": 16.0,
+    "tasksAttempted": 27,
+    "tasksWon": 9,
+    "taskWinPct": 33.0,
+    "pointsPerTask": 2.96,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 24,
+          "won": 7,
+          "winPct": 29.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 7,
+          "winPct": 44.0,
+          "ppt": 3.1
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 2.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 12,
+          "won": 2,
+          "winPct": 17.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 12,
+          "won": 5,
+          "winPct": 42.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 11,
+          "won": 5,
+          "winPct": 45.0,
+          "ppt": 3.1
+        },
+        "social": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 3.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 7,
+          "winPct": 47.0,
+          "ppt": 3.1
+        }
+      }
+    },
+    "name": "Al Murray",
+    "seasonIds": [
+      3
+    ]
+  },
+  {
+    "id": 44,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 2,
+    "episodeWinPct": 40.0,
+    "basePoints": 86,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 86,
+    "pointsPerEpisode": 17.2,
+    "tasksAttempted": 28,
+    "tasksWon": 9,
+    "taskWinPct": 32.0,
+    "pointsPerTask": 3.07,
+    "dqs": 2,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 25,
+          "won": 7,
+          "winPct": 28.0,
+          "ppt": 3.1
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.0
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.2
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 4,
+          "winPct": 25.0,
+          "ppt": 3.0
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 2,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 3.4
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 9,
+          "won": 2,
+          "winPct": 22.0,
+          "ppt": 2.3
+        },
+        "mental": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 3.1
+        },
+        "physical": {
+          "attempted": 14,
+          "won": 5,
+          "winPct": 36.0,
+          "ppt": 3.3
+        },
+        "social": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 2.8
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 5,
+          "winPct": 33.0,
+          "ppt": 3.3
+        }
+      }
+    },
+    "name": "Richard Osman",
+    "seasonIds": [
+      2
+    ]
+  },
+  {
+    "id": 45,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 117,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 118,
+    "pointsPerEpisode": 11.8,
+    "tasksAttempted": 52,
+    "tasksWon": 9,
+    "taskWinPct": 17.0,
+    "pointsPerTask": 2.27,
+    "dqs": 10,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 45,
+          "won": 6,
+          "winPct": 13.0,
+          "ppt": 2.2
+        },
+        "team": {
+          "attempted": 7,
+          "won": 3,
+          "winPct": 43.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.7
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 31,
+          "won": 8,
+          "winPct": 26.0,
+          "ppt": 2.0
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 2,
+          "winPct": 9.0,
+          "ppt": 2.7
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 7,
+          "winPct": 29.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 25,
+          "won": 7,
+          "winPct": 28.0,
+          "ppt": 2.0
+        },
+        "social": {
+          "attempted": 9,
+          "won": 3,
+          "winPct": 33.0,
+          "ppt": 2.2
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 33,
+          "won": 9,
+          "winPct": 27.0,
+          "ppt": 2.2
+        }
+      }
+    },
+    "name": "Katherine Parkinson",
+    "seasonIds": [
+      10
+    ]
+  },
+  {
+    "id": 46,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 71,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 72,
+    "pointsPerEpisode": 14.4,
+    "tasksAttempted": 27,
+    "tasksWon": 4,
+    "taskWinPct": 15.0,
+    "pointsPerTask": 2.67,
+    "dqs": 0,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 24,
+          "won": 3,
+          "winPct": 13.0,
+          "ppt": 2.7
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.3
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 12,
+          "won": 2,
+          "winPct": 17.0,
+          "ppt": 2.9
+        },
+        "mental": {
+          "attempted": 12,
+          "won": 2,
+          "winPct": 17.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 11,
+          "won": 1,
+          "winPct": 9.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 6,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Sara Pascoe",
+    "seasonIds": [
+      3
+    ]
+  },
+  {
+    "id": 47,
+    "seasonWins": 0,
+    "episodes": 8,
+    "episodeWins": 3,
+    "episodeWinPct": 38.0,
+    "basePoints": 130,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 130,
+    "pointsPerEpisode": 16.3,
+    "tasksAttempted": 46,
+    "tasksWon": 10,
+    "taskWinPct": 22.0,
+    "pointsPerTask": 2.83,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 43,
+          "won": 9,
+          "winPct": 21.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.3
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 3.8
+        },
+        "filmed": {
+          "attempted": 30,
+          "won": 7,
+          "winPct": 23.0,
+          "ppt": 2.6
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 1,
+          "winPct": 13.0,
+          "ppt": 2.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 6,
+          "winPct": 30.0,
+          "ppt": 3.5
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 25,
+          "won": 5,
+          "winPct": 20.0,
+          "ppt": 2.4
+        },
+        "social": {
+          "attempted": 6,
+          "won": 2,
+          "winPct": 33.0,
+          "ppt": 3.0
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 26,
+          "won": 4,
+          "winPct": 15.0,
+          "ppt": 2.3
+        }
+      }
+    },
+    "name": "Sally Phillips",
+    "seasonIds": [
+      5
+    ]
+  },
+  {
+    "id": 48,
+    "seasonWins": 0,
+    "episodes": 6,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 93,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 93,
+    "pointsPerEpisode": 15.5,
+    "tasksAttempted": 34,
+    "tasksWon": 6,
+    "taskWinPct": 18.0,
+    "pointsPerTask": 2.74,
+    "dqs": 0,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 31,
+          "won": 5,
+          "winPct": 16.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 0.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 6,
+          "won": 1,
+          "winPct": 17.0,
+          "ppt": 2.7
+        },
+        "filmed": {
+          "attempted": 19,
+          "won": 4,
+          "winPct": 21.0,
+          "ppt": 2.8
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 7,
+          "won": 1,
+          "winPct": 14.0,
+          "ppt": 2.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 11,
+          "won": 2,
+          "winPct": 18.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 16,
+          "won": 3,
+          "winPct": 19.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 16,
+          "won": 3,
+          "winPct": 19.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 1.6
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 23,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 2.7
+        }
+      }
+    },
+    "name": "Romesh Ranganathan",
+    "seasonIds": [
+      1
+    ]
+  },
+  {
+    "id": 49,
+    "seasonWins": 0,
+    "episodes": 5,
+    "episodeWins": 1,
+    "episodeWinPct": 20.0,
+    "basePoints": 90,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 90,
+    "pointsPerEpisode": 18.0,
+    "tasksAttempted": 28,
+    "tasksWon": 11,
+    "taskWinPct": 39.0,
+    "pointsPerTask": 3.21,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 25,
+          "won": 9,
+          "winPct": 36.0,
+          "ppt": 3.2
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.0
+        },
+        "split": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 4.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 9,
+          "winPct": 56.0,
+          "ppt": 3.5
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "live": {
+          "attempted": 5,
+          "won": 1,
+          "winPct": 20.0,
+          "ppt": 3.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 9,
+          "won": 5,
+          "winPct": 56.0,
+          "ppt": 3.4
+        },
+        "mental": {
+          "attempted": 11,
+          "won": 6,
+          "winPct": 55.0,
+          "ppt": 3.7
+        },
+        "physical": {
+          "attempted": 14,
+          "won": 5,
+          "winPct": 36.0,
+          "ppt": 3.2
+        },
+        "social": {
+          "attempted": 8,
+          "won": 3,
+          "winPct": 38.0,
+          "ppt": 2.6
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 7,
+          "winPct": 47.0,
+          "ppt": 3.6
+        }
+      }
+    },
+    "name": "Jon Richardson",
+    "seasonIds": [
+      2
+    ]
+  },
+  {
+    "id": 51,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 151,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 151,
+    "pointsPerEpisode": 15.1,
+    "tasksAttempted": 53,
+    "tasksWon": 15,
+    "taskWinPct": 28.0,
+    "pointsPerTask": 2.85,
+    "dqs": 8,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 46,
+          "won": 11,
+          "winPct": 24.0,
+          "ppt": 2.8
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 3.0
+        },
+        "split": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.7
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 5,
+          "winPct": 50.0,
+          "ppt": 3.9
+        },
+        "filmed": {
+          "attempted": 32,
+          "won": 7,
+          "winPct": 22.0,
+          "ppt": 2.4
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.0
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 9,
+          "winPct": 39.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 26,
+          "won": 6,
+          "winPct": 23.0,
+          "ppt": 2.4
+        },
+        "physical": {
+          "attempted": 24,
+          "won": 6,
+          "winPct": 25.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 9,
+          "won": 4,
+          "winPct": 44.0,
+          "ppt": 2.7
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 34,
+          "won": 8,
+          "winPct": 24.0,
+          "ppt": 2.6
+        }
+      }
+    },
+    "name": "Mawaan Rizwan",
+    "seasonIds": [
+      10
+    ]
+  },
+  {
+    "id": 52,
+    "seasonWins": 1,
+    "episodes": 7,
+    "episodeWins": 2,
+    "episodeWinPct": 29.0,
+    "basePoints": 128,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 129,
+    "pointsPerEpisode": 18.4,
+    "tasksAttempted": 38,
+    "tasksWon": 8,
+    "taskWinPct": 21.0,
+    "pointsPerTask": 3.39,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 35,
+          "won": 7,
+          "winPct": 20.0,
+          "ppt": 3.5
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 7,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.1
+        },
+        "filmed": {
+          "attempted": 22,
+          "won": 6,
+          "winPct": 27.0,
+          "ppt": 3.0
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.5
+        },
+        "live": {
+          "attempted": 7,
+          "won": 2,
+          "winPct": 29.0,
+          "ppt": 4.9
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 13,
+          "won": 1,
+          "winPct": 8.0,
+          "ppt": 2.9
+        },
+        "mental": {
+          "attempted": 15,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 19,
+          "won": 5,
+          "winPct": 26.0,
+          "ppt": 3.5
+        },
+        "social": {
+          "attempted": 8,
+          "won": 3,
+          "winPct": 38.0,
+          "ppt": 3.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 19,
+          "won": 3,
+          "winPct": 16.0,
+          "ppt": 3.2
+        }
+      }
+    },
+    "name": "Katherine Ryan",
+    "seasonIds": [
+      2,
+      6
+    ]
+  },
+  {
+    "id": 54,
+    "seasonWins": 1,
+    "episodes": 11,
+    "episodeWins": 3,
+    "episodeWinPct": 27.0,
+    "basePoints": 175,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 176,
+    "pointsPerEpisode": 16.0,
+    "tasksAttempted": 62,
+    "tasksWon": 14,
+    "taskWinPct": 23.0,
+    "pointsPerTask": 2.84,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 54,
+          "won": 12,
+          "winPct": 22.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 39,
+          "won": 7,
+          "winPct": 18.0,
+          "ppt": 2.9
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 11,
+          "won": 4,
+          "winPct": 36.0,
+          "ppt": 2.7
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 27,
+          "won": 5,
+          "winPct": 19.0,
+          "ppt": 2.7
+        },
+        "mental": {
+          "attempted": 22,
+          "won": 5,
+          "winPct": 23.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 3.1
+        },
+        "social": {
+          "attempted": 12,
+          "won": 2,
+          "winPct": 17.0,
+          "ppt": 2.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 35,
+          "won": 8,
+          "winPct": 23.0,
+          "ppt": 2.8
+        }
+      }
+    },
+    "name": "Lou Sanders",
+    "seasonIds": [
+      8
+    ]
+  },
+  {
+    "id": 55,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 134,
+    "bonusPoints": 2,
+    "pointsDeducted": 0,
+    "totalPoints": 136,
+    "pointsPerEpisode": 13.6,
+    "tasksAttempted": 54,
+    "tasksWon": 9,
+    "taskWinPct": 17.0,
+    "pointsPerTask": 2.52,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 46,
+          "won": 6,
+          "winPct": 13.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 8,
+          "won": 3,
+          "winPct": 38.0,
+          "ppt": 2.1
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 3.3
+        },
+        "filmed": {
+          "attempted": 33,
+          "won": 5,
+          "winPct": 15.0,
+          "ppt": 2.3
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 4.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 20,
+          "won": 5,
+          "winPct": 25.0,
+          "ppt": 2.4
+        },
+        "physical": {
+          "attempted": 28,
+          "won": 4,
+          "winPct": 14.0,
+          "ppt": 2.0
+        },
+        "social": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 1.9
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 31,
+          "won": 5,
+          "winPct": 16.0,
+          "ppt": 2.1
+        }
+      }
+    },
+    "name": "Paul Sinha",
+    "seasonIds": [
+      8
+    ]
+  },
+  {
+    "id": 56,
+    "seasonWins": 0,
+    "episodes": 6,
+    "episodeWins": 2,
+    "episodeWinPct": 33.0,
+    "basePoints": 92,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 93,
+    "pointsPerEpisode": 15.5,
+    "tasksAttempted": 33,
+    "tasksWon": 7,
+    "taskWinPct": 21.0,
+    "pointsPerTask": 2.82,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 30,
+          "won": 5,
+          "winPct": 17.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 1.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 6,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.5
+        },
+        "filmed": {
+          "attempted": 19,
+          "won": 6,
+          "winPct": 32.0,
+          "ppt": 2.7
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 6,
+          "won": 1,
+          "winPct": 17.0,
+          "ppt": 2.5
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 11,
+          "won": 3,
+          "winPct": 27.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 15,
+          "won": 4,
+          "winPct": 27.0,
+          "ppt": 2.5
+        },
+        "physical": {
+          "attempted": 16,
+          "won": 3,
+          "winPct": 19.0,
+          "ppt": 2.9
+        },
+        "social": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 2.2
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 22,
+          "won": 4,
+          "winPct": 18.0,
+          "ppt": 2.6
+        }
+      }
+    },
+    "name": "Frank Skinner",
+    "seasonIds": [
+      1
+    ]
+  },
+  {
+    "id": 57,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 3,
+    "episodeWinPct": 30.0,
+    "basePoints": 156,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 156,
+    "pointsPerEpisode": 15.6,
+    "tasksAttempted": 55,
+    "tasksWon": 16,
+    "taskWinPct": 29.0,
+    "pointsPerTask": 2.84,
+    "dqs": 7,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 47,
+          "won": 14,
+          "winPct": 30.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.1
+        },
+        "filmed": {
+          "attempted": 34,
+          "won": 13,
+          "winPct": 38.0,
+          "ppt": 3.1
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 3.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 1.7
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 6,
+          "winPct": 26.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 20,
+          "won": 4,
+          "winPct": 20.0,
+          "ppt": 2.4
+        },
+        "physical": {
+          "attempted": 29,
+          "won": 11,
+          "winPct": 38.0,
+          "ppt": 2.7
+        },
+        "social": {
+          "attempted": 11,
+          "won": 1,
+          "winPct": 9.0,
+          "ppt": 2.4
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Iain Stirling",
+    "seasonIds": [
+      8
+    ]
+  },
+  {
+    "id": 59,
+    "seasonWins": 1,
+    "episodes": 11,
+    "episodeWins": 2,
+    "episodeWinPct": 18.0,
+    "basePoints": 195,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 195,
+    "pointsPerEpisode": 17.7,
+    "tasksAttempted": 64,
+    "tasksWon": 20,
+    "taskWinPct": 31.0,
+    "pointsPerTask": 3.05,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 57,
+          "won": 16,
+          "winPct": 28.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 3.3
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 11,
+          "won": 1,
+          "winPct": 9.0,
+          "ppt": 2.9
+        },
+        "filmed": {
+          "attempted": 40,
+          "won": 16,
+          "winPct": 40.0,
+          "ppt": 3.3
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 1,
+          "winPct": 50.0,
+          "ppt": 3.5
+        },
+        "live": {
+          "attempted": 11,
+          "won": 2,
+          "winPct": 18.0,
+          "ppt": 2.1
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 32,
+          "won": 10,
+          "winPct": 31.0,
+          "ppt": 3.3
+        },
+        "mental": {
+          "attempted": 26,
+          "won": 8,
+          "winPct": 31.0,
+          "ppt": 2.7
+        },
+        "physical": {
+          "attempted": 33,
+          "won": 13,
+          "winPct": 39.0,
+          "ppt": 3.2
+        },
+        "social": {
+          "attempted": 12,
+          "won": 4,
+          "winPct": 33.0,
+          "ppt": 2.3
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 34,
+          "won": 12,
+          "winPct": 35.0,
+          "ppt": 2.9
+        }
+      }
+    },
+    "name": "Liza Tarbuck",
+    "seasonIds": [
+      6
+    ]
+  },
+  {
+    "id": 60,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 146,
+    "bonusPoints": 4,
+    "pointsDeducted": 0,
+    "totalPoints": 150,
+    "pointsPerEpisode": 15.0,
+    "tasksAttempted": 55,
+    "tasksWon": 14,
+    "taskWinPct": 25.0,
+    "pointsPerTask": 2.73,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 47,
+          "won": 9,
+          "winPct": 19.0,
+          "ppt": 2.7
+        },
+        "team": {
+          "attempted": 8,
+          "won": 5,
+          "winPct": 63.0,
+          "ppt": 2.9
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.8
+        },
+        "filmed": {
+          "attempted": 34,
+          "won": 11,
+          "winPct": 32.0,
+          "ppt": 3.0
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 1.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 20,
+          "won": 7,
+          "winPct": 35.0,
+          "ppt": 3.2
+        },
+        "physical": {
+          "attempted": 29,
+          "won": 8,
+          "winPct": 28.0,
+          "ppt": 2.6
+        },
+        "social": {
+          "attempted": 11,
+          "won": 6,
+          "winPct": 55.0,
+          "ppt": 3.1
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 32,
+          "won": 9,
+          "winPct": 28.0,
+          "ppt": 2.5
+        }
+      }
+    },
+    "name": "Joe Thomas",
+    "seasonIds": [
+      8
+    ]
+  },
+  {
+    "id": 61,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 1,
+    "episodeWinPct": 10.0,
+    "basePoints": 139,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 139,
+    "pointsPerEpisode": 13.9,
+    "tasksAttempted": 52,
+    "tasksWon": 12,
+    "taskWinPct": 23.0,
+    "pointsPerTask": 2.67,
+    "dqs": 8,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 45,
+          "won": 8,
+          "winPct": 18.0,
+          "ppt": 2.6
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 2.9
+        },
+        "split": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 3.3
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 1,
+          "winPct": 10.0,
+          "ppt": 2.6
+        },
+        "filmed": {
+          "attempted": 31,
+          "won": 8,
+          "winPct": 26.0,
+          "ppt": 2.6
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 4.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 3,
+          "winPct": 30.0,
+          "ppt": 2.8
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 23,
+          "won": 5,
+          "winPct": 22.0,
+          "ppt": 3.1
+        },
+        "mental": {
+          "attempted": 25,
+          "won": 6,
+          "winPct": 24.0,
+          "ppt": 2.3
+        },
+        "physical": {
+          "attempted": 24,
+          "won": 4,
+          "winPct": 17.0,
+          "ppt": 2.5
+        },
+        "social": {
+          "attempted": 9,
+          "won": 5,
+          "winPct": 56.0,
+          "ppt": 3.2
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 33,
+          "won": 7,
+          "winPct": 21.0,
+          "ppt": 2.3
+        }
+      }
+    },
+    "name": "Johnny Vegas",
+    "seasonIds": [
+      10
+    ]
+  },
+  {
+    "id": 63,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 2,
+    "episodeWinPct": 20.0,
+    "basePoints": 174,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 175,
+    "pointsPerEpisode": 17.5,
+    "tasksAttempted": 57,
+    "tasksWon": 15,
+    "taskWinPct": 26.0,
+    "pointsPerTask": 3.07,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 50,
+          "won": 11,
+          "winPct": 22.0,
+          "ppt": 3.0
+        },
+        "team": {
+          "attempted": 7,
+          "won": 4,
+          "winPct": 57.0,
+          "ppt": 3.3
+        },
+        "split": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 2.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 5,
+          "winPct": 50.0,
+          "ppt": 3.8
+        },
+        "filmed": {
+          "attempted": 35,
+          "won": 10,
+          "winPct": 29.0,
+          "ppt": 3.1
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.5
+        },
+        "live": {
+          "attempted": 10,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.3
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 28,
+          "won": 10,
+          "winPct": 36.0,
+          "ppt": 3.4
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 5,
+          "winPct": 21.0,
+          "ppt": 2.6
+        },
+        "physical": {
+          "attempted": 31,
+          "won": 8,
+          "winPct": 26.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 2.1
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 31,
+          "won": 6,
+          "winPct": 19.0,
+          "ppt": 2.8
+        }
+      }
+    },
+    "name": "Tim Vine",
+    "seasonIds": [
+      6
+    ]
+  },
+  {
+    "id": 64,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 132,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 133,
+    "pointsPerEpisode": 13.3,
+    "tasksAttempted": 56,
+    "tasksWon": 9,
+    "taskWinPct": 16.0,
+    "pointsPerTask": 2.38,
+    "dqs": 5,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 50,
+          "won": 6,
+          "winPct": 12.0,
+          "ppt": 2.4
+        },
+        "team": {
+          "attempted": 6,
+          "won": 3,
+          "winPct": 50.0,
+          "ppt": 1.8
+        },
+        "split": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.5
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 3.0
+        },
+        "filmed": {
+          "attempted": 35,
+          "won": 7,
+          "winPct": 20.0,
+          "ppt": 2.3
+        },
+        "homework": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 1.0
+        },
+        "live": {
+          "attempted": 10,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.2
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 25,
+          "won": 7,
+          "winPct": 28.0,
+          "ppt": 2.8
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 1,
+          "winPct": 4.0,
+          "ppt": 1.9
+        },
+        "physical": {
+          "attempted": 32,
+          "won": 2,
+          "winPct": 6.0,
+          "ppt": 1.9
+        },
+        "social": {
+          "attempted": 10,
+          "won": 2,
+          "winPct": 20.0,
+          "ppt": 1.9
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 29,
+          "won": 2,
+          "winPct": 7.0,
+          "ppt": 2.0
+        }
+      }
+    },
+    "name": "Phil Wang",
+    "seasonIds": [
+      7
+    ]
+  },
+  {
+    "id": 65,
+    "seasonWins": 0,
+    "episodes": 10,
+    "episodeWins": 2,
+    "episodeWinPct": 20.0,
+    "basePoints": 130,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 130,
+    "pointsPerEpisode": 13.0,
+    "tasksAttempted": 46,
+    "tasksWon": 13,
+    "taskWinPct": 28.0,
+    "pointsPerTask": 2.83,
+    "dqs": 3,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 43,
+          "won": 11,
+          "winPct": 26.0,
+          "ppt": 2.8
+        },
+        "team": {
+          "attempted": 3,
+          "won": 2,
+          "winPct": 67.0,
+          "ppt": 2.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 3,
+          "winPct": 38.0,
+          "ppt": 2.9
+        },
+        "filmed": {
+          "attempted": 30,
+          "won": 6,
+          "winPct": 20.0,
+          "ppt": 2.6
+        },
+        "homework": {
+          "attempted": 0,
+          "won": 1,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "live": {
+          "attempted": 8,
+          "won": 3,
+          "winPct": 38.0,
+          "ppt": 3.6
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 20,
+          "won": 6,
+          "winPct": 30.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 24,
+          "won": 6,
+          "winPct": 25.0,
+          "ppt": 2.8
+        },
+        "physical": {
+          "attempted": 25,
+          "won": 6,
+          "winPct": 24.0,
+          "ppt": 3.0
+        },
+        "social": {
+          "attempted": 6,
+          "won": 4,
+          "winPct": 67.0,
+          "ppt": 2.5
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 25,
+          "won": 6,
+          "winPct": 24.0,
+          "ppt": 2.8
+        }
+      }
+    },
+    "name": "Mark Watson",
+    "seasonIds": [
+      5
+    ]
+  },
+  {
+    "id": 69,
+    "seasonWins": 1,
+    "episodes": 8,
+    "episodeWins": 3,
+    "episodeWinPct": 38.0,
+    "basePoints": 131,
+    "bonusPoints": 0,
+    "pointsDeducted": 0,
+    "totalPoints": 131,
+    "pointsPerEpisode": 16.4,
+    "tasksAttempted": 47,
+    "tasksWon": 18,
+    "taskWinPct": 38.0,
+    "pointsPerTask": 2.79,
+    "dqs": 1,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 44,
+          "won": 17,
+          "winPct": 39.0,
+          "ppt": 2.9
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 0.7
+        },
+        "split": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 1,
+          "won": 1,
+          "winPct": 100.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 3.3
+        },
+        "filmed": {
+          "attempted": 28,
+          "won": 11,
+          "winPct": 39.0,
+          "ppt": 2.5
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 2,
+          "winPct": 100.0,
+          "ppt": 5.0
+        },
+        "live": {
+          "attempted": 9,
+          "won": 3,
+          "winPct": 33.0,
+          "ppt": 2.7
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 16,
+          "won": 5,
+          "winPct": 31.0,
+          "ppt": 3.0
+        },
+        "mental": {
+          "attempted": 22,
+          "won": 10,
+          "winPct": 45.0,
+          "ppt": 2.5
+        },
+        "physical": {
+          "attempted": 20,
+          "won": 5,
+          "winPct": 25.0,
+          "ppt": 3.2
+        },
+        "social": {
+          "attempted": 5,
+          "won": 3,
+          "winPct": 60.0,
+          "ppt": 2.4
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 26,
+          "won": 10,
+          "winPct": 38.0,
+          "ppt": 2.9
+        }
+      }
+    },
+    "name": "Josh Widdicombe",
+    "seasonIds": [
+      1,
+      6
+    ]
+  },
+  {
+    "id": 70,
+    "seasonWins": 0,
+    "episodes": 7,
+    "episodeWins": 0,
+    "episodeWinPct": 0.0,
+    "basePoints": 68,
+    "bonusPoints": 1,
+    "pointsDeducted": 0,
+    "totalPoints": 69,
+    "pointsPerEpisode": 9.9,
+    "tasksAttempted": 28,
+    "tasksWon": 4,
+    "taskWinPct": 14.0,
+    "pointsPerTask": 2.46,
+    "dqs": 4,
+    "taskBreakdown": {
+      "format": {
+        "solo": {
+          "attempted": 25,
+          "won": 3,
+          "winPct": 12.0,
+          "ppt": 2.5
+        },
+        "team": {
+          "attempted": 3,
+          "won": 1,
+          "winPct": 33.0,
+          "ppt": 2.0
+        },
+        "split": {
+          "attempted": 1,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        },
+        "tiebreak": {
+          "attempted": 0,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 0.0
+        }
+      },
+      "setting": {
+        "prize": {
+          "attempted": 5,
+          "won": 2,
+          "winPct": 40.0,
+          "ppt": 3.4
+        },
+        "filmed": {
+          "attempted": 16,
+          "won": 2,
+          "winPct": 13.0,
+          "ppt": 2.3
+        },
+        "homework": {
+          "attempted": 2,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.0
+        },
+        "live": {
+          "attempted": 5,
+          "won": 0,
+          "winPct": 0.0,
+          "ppt": 2.4
+        }
+      },
+      "activity": {
+        "creative": {
+          "attempted": 9,
+          "won": 2,
+          "winPct": 22.0,
+          "ppt": 2.7
+        },
+        "mental": {
+          "attempted": 11,
+          "won": 2,
+          "winPct": 18.0,
+          "ppt": 2.1
+        },
+        "physical": {
+          "attempted": 14,
+          "won": 2,
+          "winPct": 14.0,
+          "ppt": 2.3
+        },
+        "social": {
+          "attempted": 8,
+          "won": 2,
+          "winPct": 25.0,
+          "ppt": 2.5
+        }
+      },
+      "judgement": {
+        "objective": {
+          "attempted": 15,
+          "won": 1,
+          "winPct": 7.0,
+          "ppt": 2.1
+        }
+      }
+    },
+    "name": "Joe Wilkinson",
+    "seasonIds": [
+      2
+    ]
+  }
+]
