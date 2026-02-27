@@ -4,10 +4,9 @@ import Dashboard from "./components/Dashboard";
 import ContestantExplorer from "./components/ContestantExplorer";
 import ContestantDetail from "./components/ContestantDetail";
 import SeasonView from "./components/SeasonView";
-import ChatPanel from "./components/ChatPanel";
 import WatchMode from "./components/WatchMode";
 
-type Page = "dashboard" | "contestants" | "seasons" | "chat" | "watch";
+type Page = "dashboard" | "contestants" | "seasons" | "watch";
 
 function App() {
   const [page, setPage] = useState<Page>("dashboard");
@@ -22,7 +21,6 @@ function App() {
           <a href="#" className={page === "contestants" ? "active" : ""} onClick={() => setPage("contestants")}>Contestants</a>
           <a href="#" className={page === "seasons" ? "active" : ""} onClick={() => setPage("seasons")}>Seasons</a>
           <a href="#" className={page === "watch" ? "active" : ""} onClick={() => setPage("watch")}>🎬 Watch</a>
-          <a href="#" className={page === "chat" ? "active" : ""} onClick={() => setPage("chat")}>💬 Ask</a>
         </nav>
       </header>
 
@@ -33,7 +31,6 @@ function App() {
         )}
         {page === "seasons" && <SeasonView />}
         {page === "watch" && <WatchMode />}
-        {page === "chat" && <ChatPanel />}
       </main>
 
       {selectedContestant && (

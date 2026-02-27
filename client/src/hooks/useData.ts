@@ -19,21 +19,3 @@ export async function fetchAnalysis() {
   const res = await fetch(`${API_BASE}/analysis`);
   return res.json();
 }
-
-export interface ChatMessage {
-  role: "user" | "assistant";
-  content: string;
-}
-
-export async function sendChatMessage(
-  message: string,
-  history: ChatMessage[]
-): Promise<string> {
-  const res = await fetch(`${API_BASE}/chat`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ message, history }),
-  });
-  const data = await res.json();
-  return data.response;
-}

@@ -166,7 +166,7 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
       </div>
 
       <button
-        className="chat-send"
+        className="btn-primary"
         style={{ width: "100%", marginTop: "1rem", padding: "0.75rem" }}
         onClick={handleNext}
         disabled={!allContestantsScored}
@@ -316,7 +316,7 @@ function ResultsView({
       </div>
 
       <button
-        className="chat-send"
+        className="btn-primary"
         style={{ width: "100%", marginTop: "1rem", padding: "1rem", fontSize: "1.1rem" }}
         onClick={onDone}
       >

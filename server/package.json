@@ -13,11 +13,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@azure/identity": "^4.13.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "openai": "^6.24.0"
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",

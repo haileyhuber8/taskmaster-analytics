@@ -135,7 +135,7 @@ export default function WatchMode() {
             onChange={(e) => setNewName(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleAddProfile()}
           />
-          <button className="chat-send" onClick={handleAddProfile}>Add</button>
+          <button className="btn-primary" onClick={handleAddProfile}>Add</button>
         </div>
 
         <h3>Select Episode</h3>
@@ -153,7 +153,7 @@ export default function WatchMode() {
         </div>
 
         <button
-          className="chat-send"
+          className="btn-primary"
           style={{ width: "100%", padding: "1rem", fontSize: "1.1rem" }}
           onClick={startGame}
           disabled={!selectedSeason || profiles.length === 0}
