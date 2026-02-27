@@ -368,6 +368,52 @@
     }
   },
   {
+    "seriesNumber": 9,
+    "year": 2019,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 5,
+        "name": "David Baddiel",
+        "totalPoints": 128,
+        "pointsPerTask": 2.51,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 22,
+        "name": "Ed Gamble",
+        "totalPoints": 178,
+        "pointsPerTask": 3.07,
+        "episodeWinPct": 36.0
+      },
+      {
+        "id": 10,
+        "name": "Jo Brand",
+        "totalPoints": 154,
+        "pointsPerTask": 3.02,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 72,
+        "name": "Katy Wix",
+        "totalPoints": 157,
+        "pointsPerTask": 3.08,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 41,
+        "name": "Rose Matafeo",
+        "totalPoints": 593,
+        "pointsPerTask": 14.12,
+        "episodeWinPct": 20.0
+      }
+    ],
+    "winner": {
+      "id": 22,
+      "name": "Ed Gamble"
+    }
+  },
+  {
     "seriesNumber": 10,
     "year": 2020,
     "episodes": 10,
@@ -411,6 +457,466 @@
     "winner": {
       "id": 31,
       "name": "Richard Herring"
+    }
+  },
+  {
+    "seriesNumber": 11,
+    "year": 2021,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 173,
+        "name": "Charlotte Ritchie",
+        "totalPoints": 125,
+        "pointsPerTask": 2.5,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 174,
+        "name": "Jamali Maddix",
+        "totalPoints": 137,
+        "pointsPerTask": 2.69,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 175,
+        "name": "Lee Mack",
+        "totalPoints": 151,
+        "pointsPerTask": 3.02,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 176,
+        "name": "Mike Wozniak",
+        "totalPoints": 153,
+        "pointsPerTask": 2.89,
+        "episodeWinPct": 18.0
+      },
+      {
+        "id": 177,
+        "name": "Sarah Kendall",
+        "totalPoints": 174,
+        "pointsPerTask": 3.05,
+        "episodeWinPct": 27.0
+      }
+    ],
+    "winner": {
+      "id": 177,
+      "name": "Sarah Kendall"
+    }
+  },
+  {
+    "seriesNumber": 12,
+    "year": 2021,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 240,
+        "name": "Alan Davies",
+        "totalPoints": 161,
+        "pointsPerTask": 3.16,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 241,
+        "name": "Desiree Burch",
+        "totalPoints": 161,
+        "pointsPerTask": 3.22,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 242,
+        "name": "Guz Khan",
+        "totalPoints": 167,
+        "pointsPerTask": 3.27,
+        "episodeWinPct": 40.0
+      },
+      {
+        "id": 243,
+        "name": "Morgana Robinson",
+        "totalPoints": 186,
+        "pointsPerTask": 3.26,
+        "episodeWinPct": 9.0
+      },
+      {
+        "id": 244,
+        "name": "Victoria Coren Mitchell",
+        "totalPoints": 121,
+        "pointsPerTask": 2.42,
+        "episodeWinPct": 10.0
+      }
+    ],
+    "winner": {
+      "id": 243,
+      "name": "Morgana Robinson"
+    }
+  },
+  {
+    "seriesNumber": 13,
+    "year": 2022,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 308,
+        "name": "Ardal O'Hanlon",
+        "totalPoints": 153,
+        "pointsPerTask": 2.89,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 309,
+        "name": "Bridget Christie",
+        "totalPoints": 157,
+        "pointsPerTask": 3.02,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 310,
+        "name": "Chris Ramsey",
+        "totalPoints": 170,
+        "pointsPerTask": 3.15,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 311,
+        "name": "Judi Love",
+        "totalPoints": 142,
+        "pointsPerTask": 2.73,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 312,
+        "name": "Sophie Duker",
+        "totalPoints": 194,
+        "pointsPerTask": 3.23,
+        "episodeWinPct": 27.0
+      }
+    ],
+    "winner": {
+      "id": 312,
+      "name": "Sophie Duker"
+    }
+  },
+  {
+    "seriesNumber": 14,
+    "year": 2022,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 378,
+        "name": "Dara Ó Briain",
+        "totalPoints": 206,
+        "pointsPerTask": 3.43,
+        "episodeWinPct": 36.0
+      },
+      {
+        "id": 379,
+        "name": "Fern Brady",
+        "totalPoints": 144,
+        "pointsPerTask": 2.72,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 380,
+        "name": "John Kearns",
+        "totalPoints": 144,
+        "pointsPerTask": 2.72,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 381,
+        "name": "Munya Chawawa",
+        "totalPoints": 150,
+        "pointsPerTask": 2.83,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 382,
+        "name": "Sarah Millican",
+        "totalPoints": 174,
+        "pointsPerTask": 3.28,
+        "episodeWinPct": 30.0
+      }
+    ],
+    "winner": {
+      "id": 378,
+      "name": "Dara Ó Briain"
+    }
+  },
+  {
+    "seriesNumber": 15,
+    "year": 2023,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 391,
+        "name": "Frankie Boyle",
+        "totalPoints": 150,
+        "pointsPerTask": 3.0,
+        "episodeWinPct": 0.0
+      },
+      {
+        "id": 392,
+        "name": "Ivo Graham",
+        "totalPoints": 131,
+        "pointsPerTask": 2.62,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 393,
+        "name": "Jenny Eclair",
+        "totalPoints": 152,
+        "pointsPerTask": 2.98,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 394,
+        "name": "Kiell Smith-Bynoe",
+        "totalPoints": 173,
+        "pointsPerTask": 3.04,
+        "episodeWinPct": 27.0
+      },
+      {
+        "id": 395,
+        "name": "Mae Martin",
+        "totalPoints": 174,
+        "pointsPerTask": 3.41,
+        "episodeWinPct": 30.0
+      }
+    ],
+    "winner": {
+      "id": 395,
+      "name": "Mae Martin"
+    }
+  },
+  {
+    "seriesNumber": 16,
+    "year": 2023,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 454,
+        "name": "Julian Clary",
+        "totalPoints": 155,
+        "pointsPerTask": 3.1,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 455,
+        "name": "Lucy Beaumont",
+        "totalPoints": 129,
+        "pointsPerTask": 2.48,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 456,
+        "name": "Sam Campbell",
+        "totalPoints": 161,
+        "pointsPerTask": 3.16,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 457,
+        "name": "Sue Perkins",
+        "totalPoints": 137,
+        "pointsPerTask": 2.63,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 458,
+        "name": "Susan Wokoma",
+        "totalPoints": 139,
+        "pointsPerTask": 2.73,
+        "episodeWinPct": 10.0
+      }
+    ],
+    "winner": {
+      "id": 456,
+      "name": "Sam Campbell"
+    }
+  },
+  {
+    "seriesNumber": 17,
+    "year": 2024,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 486,
+        "name": "Joanne McNally",
+        "totalPoints": 171,
+        "pointsPerTask": 3.29,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 487,
+        "name": "John Robins",
+        "totalPoints": 192,
+        "pointsPerTask": 3.69,
+        "episodeWinPct": 50.0
+      },
+      {
+        "id": 488,
+        "name": "Nick Mohammed",
+        "totalPoints": 131,
+        "pointsPerTask": 2.57,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 489,
+        "name": "Sophie Willan",
+        "totalPoints": 144,
+        "pointsPerTask": 2.82,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 490,
+        "name": "Steve Pemberton",
+        "totalPoints": 153,
+        "pointsPerTask": 2.94,
+        "episodeWinPct": 20.0
+      }
+    ],
+    "winner": {
+      "id": 487,
+      "name": "John Robins"
+    }
+  },
+  {
+    "seriesNumber": 18,
+    "year": 2024,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 561,
+        "name": "Andy Zaltzman",
+        "totalPoints": 160,
+        "pointsPerTask": 3.14,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 562,
+        "name": "Babatunde Aléshé",
+        "totalPoints": 147,
+        "pointsPerTask": 2.88,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 563,
+        "name": "Emma Sidi",
+        "totalPoints": 152,
+        "pointsPerTask": 2.92,
+        "episodeWinPct": 40.0
+      },
+      {
+        "id": 564,
+        "name": "Jack Dee",
+        "totalPoints": 157,
+        "pointsPerTask": 3.02,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 565,
+        "name": "Rosie Jones",
+        "totalPoints": 137,
+        "pointsPerTask": 2.69,
+        "episodeWinPct": 10.0
+      }
+    ],
+    "winner": {
+      "id": 564,
+      "name": "Jack Dee"
+    }
+  },
+  {
+    "seriesNumber": 19,
+    "year": 2025,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 597,
+        "name": "Fatiha El-Ghorri",
+        "totalPoints": 141,
+        "pointsPerTask": 2.82,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 598,
+        "name": "Jason Mantzoukas",
+        "totalPoints": 150,
+        "pointsPerTask": 2.94,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 599,
+        "name": "Mathew Baynton",
+        "totalPoints": 169,
+        "pointsPerTask": 3.38,
+        "episodeWinPct": 40.0
+      },
+      {
+        "id": 600,
+        "name": "Rosie Ramsey",
+        "totalPoints": 149,
+        "pointsPerTask": 2.92,
+        "episodeWinPct": 10.0
+      },
+      {
+        "id": 601,
+        "name": "Stevie Martin",
+        "totalPoints": 154,
+        "pointsPerTask": 3.08,
+        "episodeWinPct": 20.0
+      }
+    ],
+    "winner": {
+      "id": 600,
+      "name": "Rosie Ramsey"
+    }
+  },
+  {
+    "seriesNumber": 20,
+    "year": 2025,
+    "episodes": 10,
+    "contestants": [
+      {
+        "id": 692,
+        "name": "Ania Magliano",
+        "totalPoints": 151,
+        "pointsPerTask": 2.9,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 693,
+        "name": "Maisie Adam",
+        "totalPoints": 151,
+        "pointsPerTask": 2.96,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 694,
+        "name": "Phil Ellis",
+        "totalPoints": 151,
+        "pointsPerTask": 2.96,
+        "episodeWinPct": 30.0
+      },
+      {
+        "id": 695,
+        "name": "Reece Shearsmith",
+        "totalPoints": 148,
+        "pointsPerTask": 2.96,
+        "episodeWinPct": 20.0
+      },
+      {
+        "id": 696,
+        "name": "Sanjeev Bhaskar",
+        "totalPoints": 143,
+        "pointsPerTask": 2.8,
+        "episodeWinPct": 0.0
+      }
+    ],
+    "winner": {
+      "id": 693,
+      "name": "Maisie Adam"
     }
   }
 ]

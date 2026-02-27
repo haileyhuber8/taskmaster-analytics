@@ -103,13 +103,13 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
         <h2>
           Task {currentTaskIdx + 1}/{scorableTasks.length}
         </h2>
-        <button onClick={onCancel} style={{ background: "none", border: "1px solid var(--tm-card-border)", color: "var(--tm-text-muted)", padding: "0.4rem 1rem", borderRadius: "6px", cursor: "pointer" }}>
+        <button onClick={onCancel} style={{ background: "none", border: "1px solid var(--tm-cream-dark)", color: "var(--tm-text-muted)", padding: "0.4rem 1rem", borderRadius: "6px", cursor: "pointer" }}>
           Cancel
         </button>
       </div>
 
-      <div style={{ background: "var(--tm-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
-        <p style={{ color: "var(--tm-gold)", fontWeight: 700, marginBottom: "0.5rem" }}>{currentTask.name}</p>
+      <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
+        <p style={{ color: "var(--tm-red)", fontWeight: 700, marginBottom: "0.5rem" }}>{currentTask.name}</p>
         <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
           Type: {currentTask.judgement} · Step {currentStep}/{totalSteps}
         </p>
@@ -137,9 +137,7 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            background: "var(--tm-dark)",
-            padding: "0.75rem 1rem",
-            borderRadius: "8px",
+            background: "var(--tm-cream-dark)",
           }}>
             <span style={{ fontWeight: 600 }}>{c.name}</span>
             <div style={{ display: "flex", gap: "0.25rem" }}>
@@ -151,9 +149,9 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
                     width: "40px",
                     height: "40px",
                     borderRadius: "8px",
-                    border: playerScoresForTask[c.id] === score ? "2px solid var(--tm-gold)" : "1px solid var(--tm-card-border)",
-                    background: playerScoresForTask[c.id] === score ? "var(--tm-gold)" : "var(--tm-card-bg)",
-                    color: playerScoresForTask[c.id] === score ? "var(--tm-darker)" : "var(--tm-text)",
+                    border: playerScoresForTask[c.id] === score ? "2px solid var(--tm-red)" : "1px solid var(--tm-cream-dark)",
+                    background: playerScoresForTask[c.id] === score ? "var(--tm-red-bright)" : "white",
+                    color: playerScoresForTask[c.id] === score ? "white" : "var(--tm-text-dark)",
                     fontWeight: 700,
                     cursor: "pointer",
                     fontSize: "1rem",
@@ -273,7 +271,7 @@ function ResultsView({
           </thead>
           <tbody>
             {contestantIds.map((cId, i) => (
-              <tr key={cId} style={cId === actualWinner ? { background: "rgba(212, 175, 55, 0.1)" } : {}}>
+              <tr key={cId} style={cId === actualWinner ? { background: "rgba(121, 0, 0, 0.08)" } : {}}>
                 <td>
                   {contestantNames[i]}
                   {cId === actualWinner && <span className="winner-badge">🏆</span>}
@@ -303,7 +301,7 @@ function ResultsView({
                 <span style={{ color: p.color, fontWeight: 700 }}>{p.name}</span>
                 <span>{pct}% match with Greg</span>
               </div>
-              <div style={{ background: "var(--tm-dark)", borderRadius: "4px", height: "12px", overflow: "hidden" }}>
+              <div style={{ background: "var(--tm-cream-dark)", borderRadius: "4px", height: "12px", overflow: "hidden" }}>
                 <div style={{ width: `${pct}%`, height: "100%", background: p.color, borderRadius: "4px", transition: "width 0.5s" }} />
               </div>
             </div>
@@ -311,7 +309,7 @@ function ResultsView({
         })}
 
         {players.length > 1 && (
-          <p style={{ textAlign: "center", fontSize: "1.1rem", fontWeight: 700, color: "var(--tm-gold)", marginTop: "1rem" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1rem", fontWeight: 700, color: "var(--tm-red)", marginTop: "1rem" }}>
             👑 {bestAlignment.name} is the Better Taskmaster!
           </p>
         )}

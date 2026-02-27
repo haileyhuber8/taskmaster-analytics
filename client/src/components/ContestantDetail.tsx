@@ -36,7 +36,7 @@ export default function ContestantDetail({ contestant: c, onClose }: Props) {
       <div className="detail-panel">
         <button className="detail-close" onClick={onClose}>✕</button>
 
-        <h2 style={{ color: "var(--tm-gold)", marginBottom: "0.5rem" }}>
+        <h2 style={{ color: "var(--tm-red)", marginBottom: "0.5rem", fontFamily: "'Special Elite', 'Courier New', monospace" }}>
           {c.name}
           {c.seasonWins > 0 && <span className="winner-badge">🏆</span>}
         </h2>
@@ -57,7 +57,7 @@ export default function ContestantDetail({ contestant: c, onClose }: Props) {
         <BreakdownTable title="⚖️ By Judgement" data={c.taskBreakdown.judgement} />
 
         <div style={{ marginTop: "1rem" }}>
-          <h3 style={{ color: "var(--tm-gold-light)", marginBottom: "0.5rem" }}>Extra Stats</h3>
+          <h3 style={{ color: "var(--tm-brown)", marginBottom: "0.5rem" }}>Extra Stats</h3>
           <p style={{ color: "var(--tm-text-muted)", fontSize: "0.9rem" }}>
             Tasks: {c.tasksAttempted} attempted, {c.tasksWon} won ({c.taskWinPct}%)<br />
             Bonus: +{c.bonusPoints} · Deductions: -{c.pointsDeducted} · DQs: {c.dqs}
@@ -74,7 +74,7 @@ function BreakdownTable({ title, data }: { title: string; data: Record<string, {
 
   return (
     <div style={{ marginBottom: "1rem" }}>
-      <h3 style={{ color: "var(--tm-gold-light)", marginBottom: "0.5rem" }}>{title}</h3>
+      <h3 style={{ color: "var(--tm-brown)", marginBottom: "0.5rem" }}>{title}</h3>
       <table className="comparison-table" style={{ fontSize: "0.85rem" }}>
         <thead>
           <tr><th>Type</th><th>Att.</th><th>Won</th><th>Win%</th><th>PpT</th></tr>

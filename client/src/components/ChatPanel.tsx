@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import { sendChatMessage, ChatMessage } from "../hooks/useData";
+import { sendChatMessage } from "../hooks/useData";
+import type { ChatMessage } from "../hooks/useData";
 
 const SUGGESTIONS = [
   "Do winners tend to score better on prize tasks?",

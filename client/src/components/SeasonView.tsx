@@ -33,7 +33,7 @@ export default function SeasonView() {
         <div key={s.seriesNumber} className="card" style={{ marginBottom: "1.5rem" }}>
           <h2>Series {s.seriesNumber} ({s.year})</h2>
           <p style={{ color: "var(--tm-text-muted)", marginBottom: "1rem" }}>
-            {s.episodes} episodes · Champion: <strong style={{ color: "var(--tm-gold)" }}>{s.winner.name}</strong>
+            {s.episodes} episodes · Champion: <strong style={{ color: "var(--tm-red)" }}>{s.winner.name}</strong>
           </p>
           {s.contestants.length > 0 ? (
             <table className="comparison-table">
@@ -49,7 +49,7 @@ export default function SeasonView() {
                 {s.contestants
                   .sort((a, b) => b.totalPoints - a.totalPoints)
                   .map((c) => (
-                    <tr key={c.id} style={c.id === s.winner.id ? { background: "rgba(212, 175, 55, 0.1)" } : {}}>
+                    <tr key={c.id} style={c.id === s.winner.id ? { background: "rgba(121, 0, 0, 0.08)" } : {}}>
                       <td>
                         {c.name}
                         {c.id === s.winner.id && <span className="winner-badge">🏆</span>}

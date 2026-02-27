@@ -182,15 +182,21 @@ def scrape_season(season_id: int) -> dict:
     # Find contestants (class='contestant') vs hosts (class='host')
     season["contestants"] = []
     contestant_divs = soup.find_all("div", class_="contestant")
+    # Some season pages use "contestantAlt" class instead
+    if not contestant_divs:
+        contestant_divs = soup.find_all("div", class_="contestantAlt")
     for div in contestant_divs:
         link = div.find("a", href=re.compile(r"person\.php\?id=\d+"))
         if link:
             match = re.search(r"id=(\d+)", link["href"])
             if match:
                 cid = int(match.group(1))
+                if cid in HOST_IDS:
+                    continue
                 name = div.find("p", class_="personName")
                 name_text = name.get_text(strip=True) if name else link.get_text(strip=True)
-                season["contestants"].append({"id": cid, "name": name_text})
+                if cid not in {c["id"] for c in season["contestants"]}:
+                    season["contestants"].append({"id": cid, "name": name_text})
 
     # Try to find winner from notes text
     season["winner"] = None
@@ -217,20 +223,24 @@ def main():
     seasons_file = os.path.join(DATA_DIR, "seasons.json")
     contestants_file = os.path.join(DATA_DIR, "contestants.json")
 
-    # Step 1: Scrape all 21 season pages to get contestant IDs
+    # All UK regular series site IDs (from taskmaster.info/show.php?id=1)
+    UK_SEASON_IDS = [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 32, 38, 48, 55, 56, 73, 74, 75, 76, 77]
+
+    # Step 1: Scrape all UK season pages to get contestant IDs
     print("\n[1/3] Scraping season pages...")
     seasons = []
     if os.path.exists(seasons_file):
         with open(seasons_file, "r", encoding="utf-8") as f:
             existing = json.load(f)
-        if len(existing) == 21 and all(s.get("contestants") for s in existing):
+        existing_ids = {s["id"] for s in existing}
+        if all(sid in existing_ids for sid in UK_SEASON_IDS) and all(s.get("contestants") for s in existing if s["id"] in set(UK_SEASON_IDS)):
             print(f"  Loaded {len(existing)} seasons from cache")
             seasons = existing
 
     if not seasons:
         all_contestant_ids = {}
-        for sid in range(1, 22):
-            print(f"\n  Season {sid}:")
+        for sid in UK_SEASON_IDS:
+            print(f"\n  Season (site id={sid}):")
             try:
                 season = scrape_season(sid)
                 seasons.append(season)
@@ -383,11 +393,6 @@ def build_analysis(contestants: list[dict], seasons: list[dict]) -> dict:
                 })
 
     return analysis
-
-
-if __name__ == "__main__":
-    main()
-
 
 
 if __name__ == "__main__":

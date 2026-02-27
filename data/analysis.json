@@ -1,48 +1,48 @@
 {
-  "totalContestants": 45,
-  "totalSeasons": 9,
+  "totalContestants": 100,
+  "totalSeasons": 20,
   "winners": {
-    "count": 9,
-    "avgPointsPerTask": 3.05,
-    "avgPointsPerEpisode": 17.03,
-    "avgEpisodeWinPct": 29.22,
-    "avgTaskWinPct": 28.33,
+    "count": 20,
+    "avgPointsPerTask": 3.16,
+    "avgPointsPerEpisode": 16.96,
+    "avgEpisodeWinPct": 29.9,
+    "avgTaskWinPct": 30.4,
     "byTaskType": {
-      "prize": 3.17,
-      "filmed": 2.97,
-      "live": 3.12
+      "prize": 3.2,
+      "filmed": 3.13,
+      "live": 3.2
     },
     "byActivity": {
-      "creative": 3.12,
-      "mental": 2.97,
-      "physical": 3.16,
-      "social": 2.84
+      "creative": 3.2,
+      "mental": 3.11,
+      "physical": 3.26,
+      "social": 3.13
     },
     "byJudgement": {
-      "objective": 2.99,
+      "objective": 3.14,
       "subjective": 0,
       "combo": 0
     }
   },
   "nonWinners": {
-    "count": 36,
-    "avgPointsPerTask": 2.75,
-    "avgPointsPerEpisode": 15.07,
-    "avgEpisodeWinPct": 20.67,
-    "avgTaskWinPct": 24.64,
+    "count": 80,
+    "avgPointsPerTask": 2.96,
+    "avgPointsPerEpisode": 14.94,
+    "avgEpisodeWinPct": 19.51,
+    "avgTaskWinPct": 25.27,
     "byTaskType": {
-      "prize": 2.93,
-      "filmed": 2.71,
-      "live": 2.69
+      "prize": 3.01,
+      "filmed": 2.81,
+      "live": 2.73
     },
     "byActivity": {
-      "creative": 2.91,
-      "mental": 2.63,
-      "physical": 2.66,
-      "social": 2.58
+      "creative": 3.04,
+      "mental": 2.72,
+      "physical": 2.69,
+      "social": 2.84
     },
     "byJudgement": {
-      "objective": 2.63,
+      "objective": 2.65,
       "subjective": 0,
       "combo": 0
     }
@@ -89,9 +89,64 @@
       "id": 54
     },
     {
+      "season": 9,
+      "name": "Ed Gamble",
+      "id": 22
+    },
+    {
       "season": 10,
       "name": "Richard Herring",
       "id": 31
+    },
+    {
+      "season": 11,
+      "name": "Sarah Kendall",
+      "id": 177
+    },
+    {
+      "season": 12,
+      "name": "Morgana Robinson",
+      "id": 243
+    },
+    {
+      "season": 13,
+      "name": "Sophie Duker",
+      "id": 312
+    },
+    {
+      "season": 14,
+      "name": "Dara Ó Briain",
+      "id": 378
+    },
+    {
+      "season": 15,
+      "name": "Mae Martin",
+      "id": 395
+    },
+    {
+      "season": 16,
+      "name": "Sam Campbell",
+      "id": 456
+    },
+    {
+      "season": 17,
+      "name": "John Robins",
+      "id": 487
+    },
+    {
+      "season": 18,
+      "name": "Jack Dee",
+      "id": 564
+    },
+    {
+      "season": 19,
+      "name": "Rosie Ramsey",
+      "id": 600
+    },
+    {
+      "season": 20,
+      "name": "Maisie Adam",
+      "id": 693
     }
   ],
   "keyInsights": [

@@ -34,8 +34,23 @@ const SEASON_CONTESTANTS: Record<number, string[]> = {
   1: ["Frank Skinner", "Josh Widdicombe", "Roisin Conaty", "Romesh Ranganathan", "Tim Key"],
   2: ["Doc Brown", "Joe Wilkinson", "Jon Richardson", "Katherine Ryan", "Richard Osman"],
   3: ["Al Murray", "Dave Gorman", "Paul Chowdhry", "Rob Beckett", "Sara Pascoe"],
+  4: ["Hugh Dennis", "Joe Lycett", "Lolly Adefope", "Mel Giedroyc", "Noel Fielding"],
   5: ["Aisling Bea", "Bob Mortimer", "Mark Watson", "Nish Kumar", "Sally Phillips"],
+  6: ["Alice Levine", "Asim Chaudhry", "Liza Tarbuck", "Russell Howard", "Tim Vine"],
   7: ["James Acaster", "Jessica Knappett", "Kerry Godliman", "Phil Wang", "Rhod Gilbert"],
+  8: ["Iain Stirling", "Joe Thomas", "Lou Sanders", "Paul Sinha", "Sian Gibson"],
+  9: ["David Baddiel", "Ed Gamble", "Jo Brand", "Katy Wix", "Rose Matafeo"],
+  10: ["Daisy May Cooper", "Johnny Vegas", "Katherine Parkinson", "Mawaan Rizwan", "Richard Herring"],
+  11: ["Charlotte Ritchie", "Jamali Maddix", "Lee Mack", "Mike Wozniak", "Sarah Kendall"],
+  12: ["Alan Davies", "Desiree Burch", "Guz Khan", "Morgana Robinson", "Victoria Coren Mitchell"],
+  13: ["Ardal O'Hanlon", "Bridget Christie", "Chris Ramsey", "Judi Love", "Sophie Duker"],
+  14: ["Dara Ó Briain", "Fern Brady", "John Kearns", "Munya Chawawa", "Sarah Millican"],
+  15: ["Frankie Boyle", "Ivo Graham", "Jenny Eclair", "Kiell Smith-Bynoe", "Mae Martin"],
+  16: ["Julian Clary", "Lucy Beaumont", "Sam Campbell", "Sue Perkins", "Susan Wokoma"],
+  17: ["Joanne McNally", "John Robins", "Nick Mohammed", "Sophie Willan", "Steve Pemberton"],
+  18: ["Andy Zaltzman", "Babatunde Aléshé", "Emma Sidi", "Jack Dee", "Rosie Jones"],
+  19: ["Fatiha El-Ghorri", "Jason Mantzoukas", "Mathew Baynton", "Rosie Ramsey", "Stevie Martin"],
+  20: ["Ania Magliano", "Maisie Adam", "Phil Ellis", "Reece Shearsmith", "Sanjeev Bhaskar"],
 };
 
 export default function WatchMode() {
@@ -94,7 +109,7 @@ export default function WatchMode() {
               display: "flex",
               alignItems: "center",
               gap: "0.5rem",
-              background: "var(--tm-dark)",
+              background: "var(--tm-cream-dark)",
               padding: "0.5rem 1rem",
               borderRadius: "8px",
               borderLeft: `4px solid ${p.color}`,
@@ -129,7 +144,7 @@ export default function WatchMode() {
             <button
               key={s}
               className={`suggestion-btn ${selectedSeason === parseInt(s) ? "active" : ""}`}
-              style={selectedSeason === parseInt(s) ? { borderColor: "var(--tm-gold)", color: "var(--tm-gold)" } : {}}
+              style={selectedSeason === parseInt(s) ? { borderColor: "var(--tm-red)", color: "var(--tm-red)" } : {}}
               onClick={() => setSelectedSeason(parseInt(s))}
             >
               Series {s}

@@ -1,11 +1,14 @@
 import { AzureOpenAI } from "openai";
+import { DefaultAzureCredential, getBearerTokenProvider } from "@azure/identity";
 import { ChatMessage } from "../types";
 import { getDataSummary } from "./dataService";
 
 function getClient(): AzureOpenAI {
+  const credential = new DefaultAzureCredential();
+  const azureADTokenProvider = getBearerTokenProvider(credential, "https://cognitiveservices.azure.com/.default");
   return new AzureOpenAI({
     endpoint: process.env.AZURE_OPENAI_ENDPOINT || "",
-    apiKey: process.env.AZURE_OPENAI_API_KEY || "",
+    azureADTokenProvider,
     apiVersion: "2024-08-01-preview",
     deployment: process.env.AZURE_OPENAI_DEPLOYMENT || "gpt-4o",
   });
@@ -51,8 +54,8 @@ export async function chat(
     return response.choices[0]?.message?.content || "The Taskmaster is speechless. Try again.";
   } catch (error: any) {
     console.error("Azure OpenAI error:", error.message);
-    if (!process.env.AZURE_OPENAI_ENDPOINT || !process.env.AZURE_OPENAI_API_KEY) {
-      return "The Taskmaster's communication device (Azure OpenAI) hasn't been configured yet. Set AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY, and AZURE_OPENAI_DEPLOYMENT environment variables.";
+    if (!process.env.AZURE_OPENAI_ENDPOINT) {
+      return "The Taskmaster's communication device (Azure OpenAI) hasn't been configured yet. Set AZURE_OPENAI_ENDPOINT and AZURE_OPENAI_DEPLOYMENT environment variables.";
     }
     throw error;
   }

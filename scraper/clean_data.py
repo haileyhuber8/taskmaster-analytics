@@ -10,42 +10,35 @@ import os
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
-# Site season ID -> UK Series mapping (based on contestant analysis)
-# The site includes specials and international shows in its season IDs
+# Site season ID -> UK Series mapping (from taskmaster.info/show.php?id=1)
 UK_SEASONS = {
-    # site_season_id: { series_number, year, winner_name, winner_id, episode_count }
-    1: {"series": 1, "year": 2015, "winner": "Josh Widdicombe", "winnerId": 69, "episodes": 6},
-    2: {"series": 2, "year": 2016, "winner": "Jon Richardson", "winnerId": 49, "episodes": 5},
-    3: {"series": 3, "year": 2016, "winner": "Rob Beckett", "winnerId": 8, "episodes": 5},
-    4: {"series": 4, "year": 2017, "winner": "Noel Fielding", "winnerId": 21, "episodes": 8},
-    5: {"series": 5, "year": 2017, "winner": "Bob Mortimer", "winnerId": 42, "episodes": 8},
-    # site S6 = Champion of Champions 1 (skip)
-    7: {"series": 6, "year": 2018, "winner": "Liza Tarbuck", "winnerId": 59, "episodes": 10},
-    8: {"series": 7, "year": 2018, "winner": "Kerry Godliman", "winnerId": 26, "episodes": 10},
-    9: {"series": 8, "year": 2019, "winner": "Lou Sanders", "winnerId": 54, "episodes": 10},
-    # site S10 = Champion of Champions 2 or New Year Treat (skip)
-    11: {"series": 10, "year": 2020, "winner": "Richard Herring", "winnerId": 31, "episodes": 10},
+    # site_season_id: { series_number, year, winner_name, episode_count }
+    1:  {"series": 1,  "year": 2015, "winner": "Josh Widdicombe",   "episodes": 6},
+    2:  {"series": 2,  "year": 2016, "winner": "Jon Richardson",     "episodes": 5},
+    3:  {"series": 3,  "year": 2016, "winner": "Rob Beckett",        "episodes": 5},
+    4:  {"series": 4,  "year": 2017, "winner": "Noel Fielding",      "episodes": 8},
+    5:  {"series": 5,  "year": 2017, "winner": "Bob Mortimer",       "episodes": 8},
+    7:  {"series": 6,  "year": 2018, "winner": "Liza Tarbuck",       "episodes": 10},
+    8:  {"series": 7,  "year": 2018, "winner": "Kerry Godliman",     "episodes": 10},
+    9:  {"series": 8,  "year": 2019, "winner": "Lou Sanders",        "episodes": 10},
+    10: {"series": 9,  "year": 2019, "winner": "Ed Gamble",          "episodes": 10},
+    11: {"series": 10, "year": 2020, "winner": "Richard Herring",    "episodes": 10},
+    32: {"series": 11, "year": 2021, "winner": "Sarah Kendall",      "episodes": 10},
+    38: {"series": 12, "year": 2021, "winner": "Morgana Robinson",   "episodes": 10},
+    48: {"series": 13, "year": 2022, "winner": "Sophie Duker",       "episodes": 10},
+    55: {"series": 14, "year": 2022, "winner": "Dara",               "episodes": 10},
+    56: {"series": 15, "year": 2023, "winner": "Mae Martin",         "episodes": 10},
+    73: {"series": 16, "year": 2023, "winner": "Sam Campbell",       "episodes": 10},
+    74: {"series": 17, "year": 2024, "winner": "John Robins",        "episodes": 10},
+    75: {"series": 18, "year": 2024, "winner": "Jack Dee",           "episodes": 10},
+    76: {"series": 19, "year": 2025, "winner": "Rosie Ramsey",       "episodes": 10},
+    77: {"series": 20, "year": 2025, "winner": "Maisie Adam",        "episodes": 10},
 }
 
-# Non-UK contestant IDs to exclude (Norwegian/Danish shows)
+# Non-UK contestant IDs to exclude (hosts + international shows)
 NON_UK_IDS = {
     112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124,  # Norwegian
     143, 144, 145, 146, 147,  # Danish
-}
-
-# Known UK contestants with their actual series numbers
-# For contestants from series 9-21 that we may have missed due to site structure
-ADDITIONAL_UK_CONTESTANTS_SERIES = {
-    # Series 9 (2019): Ed Gamble (winner), David Baddiel, Jo Brand, Katy Wix, Rose Matafeo
-    # Series 10 (2020): Richard Herring (winner), Daisy May Cooper, Johnny Vegas, Katherine Parkinson, Mawaan Rizwan
-    # Series 11 (2021): Sarah Kendall (winner), Charlotte Ritchie, Jamali Maddix, Lee Mack, Mike Wozniak
-    # Series 12 (2021): Morgana Robinson (winner), Alan Davies, Desiree Burch, Guz Khan, Victoria Coren Mitchell
-    # Series 13 (2022): Sophie Duker (winner), Ardal O'Hanlon, Bridget Christie, Chris Ramsey, Judi Love
-    # Series 14 (2022): Dara Ó Briain (winner), Fern Brady, John Kearns, Munya Chawawa, Sarah Millican
-    # Series 15 (2023): Mae Martin (winner), Frankie Boyle, Ivo Graham, Jenny Eclair, Kiell Smith-Bynoe
-    # Series 16 (2023): Sam Campbell (winner), Julian Clary, Lucy Beaumont, Sue Perkins, Susan Wokoma
-    # Series 17 (2024): John Robins (winner), Joanne McNally, Nick Mohammed, Rachael Stirling, Steve Pemberton
-    # Series 18 (2024): Jack Dee (winner), Andy Zaltzman, Babatunde Aléshé, Emma Sidi, Rosie Jones
 }
 
 
@@ -74,6 +67,7 @@ def main():
     for site_id, info in sorted(UK_SEASONS.items()):
         season_data = next((s for s in raw_seasons if s["id"] == site_id), None)
         contestants_in_season = []
+        winner_id = None
         if season_data:
             for sc in season_data.get("contestants", []):
                 contestant = next((c for c in uk_contestants if c["id"] == sc["id"]), None)
@@ -85,6 +79,20 @@ def main():
                         "pointsPerTask": contestant.get("pointsPerTask", 0),
                         "episodeWinPct": contestant.get("episodeWinPct", 0),
                     })
+                # Match winner by name (partial match for names like "Dara")
+                if info["winner"].lower() in sc["name"].lower():
+                    winner_id = sc["id"]
+
+        if winner_id is None and contestants_in_season:
+            # Fallback: pick contestant with most total points
+            winner_id = max(contestants_in_season, key=lambda c: c["totalPoints"])["id"]
+            winner_name = next(c["name"] for c in contestants_in_season if c["id"] == winner_id)
+            print(f"  Warning: Winner '{info['winner']}' not matched for Series {info['series']}, using top scorer: {winner_name}")
+
+        winner_name = info["winner"]
+        if winner_id:
+            matched = next((c["name"] for c in contestants_in_season if c["id"] == winner_id), winner_name)
+            winner_name = matched
 
         season_entry = {
             "seriesNumber": info["series"],
@@ -92,8 +100,8 @@ def main():
             "episodes": info["episodes"],
             "contestants": contestants_in_season,
             "winner": {
-                "id": info["winnerId"],
-                "name": info["winner"]
+                "id": winner_id or 0,
+                "name": winner_name
             }
         }
         uk_seasons.append(season_entry)
