@@ -20,7 +20,7 @@ export async function fetchAnalysis() {
   return res.json();
 }
 
-export async function fetchFunFacts(): Promise<string[]> {
+export async function fetchFunFacts(): Promise<{ text: string; seasons: number[]; contestants: string[] }[]> {
   const res = await fetch(`${DATA_BASE}/funfacts.json`);
   return res.json();
 }

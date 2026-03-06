@@ -1,4 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { fetchFunFacts } from "../hooks/useData";
+
+interface FunFact {
+  text: string;
+  seasons: number[];
+  contestants: string[];
+}
 
 interface Task {
   id: number;
@@ -28,6 +35,56 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
   const [allScores, setAllScores] = useState<Record<string, Record<number, Record<number, number>>>>({});
   // allScores[playerId][taskId][contestantId] = score
   const [showResults, setShowResults] = useState(false);
+  const [funFacts, setFunFacts] = useState<FunFact[]>([]);
+  const [shownFacts, setShownFacts] = useState<Record<string, Set<string>>>({}); // playerId -> set of shown fact texts
+
+  useEffect(() => {
+    fetchFunFacts().then((facts) => {
+      setFunFacts(facts.map((f: FunFact | string) => typeof f === "string" ? { text: f, seasons: [], contestants: [] } : f));
+    });
+  }, []);
+
+  const seasonContestants = tasks[0]?.contestants.map((c) => c.name) || [];
+
+  // Pick a relevant, non-repeated fun fact for the current player
+  const getFactForPlayer = (playerId: string): string | null => {
+    const seen = shownFacts[playerId] || new Set<string>();
+    // Priority 1: facts about contestants in this season
+    const contestantFacts = funFacts.filter(
+      (f) => f.contestants.some((c) => seasonContestants.includes(c)) && !seen.has(f.text)
+    );
+    if (contestantFacts.length > 0) return contestantFacts[Math.floor(Math.random() * contestantFacts.length)].text;
+    // Priority 2: facts about this season number
+    const seasonFacts = funFacts.filter(
+      (f) => f.seasons.includes(seasonNumber) && !seen.has(f.text)
+    );
+    if (seasonFacts.length > 0) return seasonFacts[Math.floor(Math.random() * seasonFacts.length)].text;
+    // Priority 3: general facts (no season/contestant tags)
+    const generalFacts = funFacts.filter(
+      (f) => f.seasons.length === 0 && f.contestants.length === 0 && !seen.has(f.text)
+    );
+    if (generalFacts.length > 0) return generalFacts[Math.floor(Math.random() * generalFacts.length)].text;
+    return null;
+  };
+
+  // Memoize the current fact so it doesn't change on re-render
+  const [currentFact, setCurrentFact] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (funFacts.length === 0) return;
+    const playerId = players[currentPlayerIdx]?.id;
+    if (!playerId) return;
+    const fact = getFactForPlayer(playerId);
+    setCurrentFact(fact);
+    if (fact) {
+      setShownFacts((prev) => {
+        const playerSeen = new Set(prev[playerId] || []);
+        playerSeen.add(fact);
+        return { ...prev, [playerId]: playerSeen };
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentTaskIdx, currentPlayerIdx, funFacts]);
 
   const currentTask = scorableTasks[currentTaskIdx];
   const currentPlayer = players[currentPlayerIdx];
@@ -164,6 +221,21 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
           </div>
         ))}
       </div>
+
+      {currentFact && (
+        <div style={{
+          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+          border: "1px solid #334155",
+          borderRadius: "8px",
+          padding: "0.75rem 1rem",
+          marginTop: "1rem",
+        }}>
+          <p style={{ margin: 0, fontSize: "0.85rem", color: "#94a3b8" }}>
+            <span style={{ marginRight: "0.4rem" }}>💡</span>
+            {currentFact}
+          </p>
+        </div>
+      )}
 
       <button
         className="btn-primary"

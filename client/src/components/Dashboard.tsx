@@ -118,7 +118,8 @@ export default function Dashboard() {
     Promise.all([fetchAnalysis(), fetchContestants(), fetchFunFacts()]).then(([a, c, facts]) => {
       setAnalysis(a);
       setContestants(c);
-      setFunFact(facts[Math.floor(Math.random() * facts.length)]);
+      const fact = facts[Math.floor(Math.random() * facts.length)];
+      setFunFact(typeof fact === "string" ? fact : fact.text);
       setLoading(false);
     });
   }, []);
