@@ -19,3 +19,8 @@ export async function fetchAnalysis() {
   const res = await fetch(`${DATA_BASE}/analysis.json`);
   return res.json();
 }
+
+export async function fetchFunFacts(): Promise<string[]> {
+  const res = await fetch(`${DATA_BASE}/funfacts.json`);
+  return res.json();
+}

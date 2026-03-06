@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchContestants, fetchAnalysis } from "../hooks/useData";
+import { fetchContestants, fetchAnalysis, fetchFunFacts } from "../hooks/useData";
 
 interface TaskStat { attempted: number; won: number; winPct: number; ppt: number }
 interface Contestant {
@@ -111,12 +111,14 @@ function computeShowStats(contestants: Contestant[]) {
 export default function Dashboard() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [contestants, setContestants] = useState<Contestant[]>([]);
+  const [funFact, setFunFact] = useState<string>("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([fetchAnalysis(), fetchContestants()]).then(([a, c]) => {
+    Promise.all([fetchAnalysis(), fetchContestants(), fetchFunFacts()]).then(([a, c, facts]) => {
       setAnalysis(a);
       setContestants(c);
+      setFunFact(facts[Math.floor(Math.random() * facts.length)]);
       setLoading(false);
     });
   }, []);
@@ -156,6 +158,13 @@ export default function Dashboard() {
           <div className="stat-item"><div className="stat-value">{stats.totalBonus}</div><div className="stat-label">Bonus Points Awarded</div></div>
         </div>
       </div>
+
+      {funFact && (
+        <div className="card" style={{ background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)", border: "1px solid #334155" }}>
+          <h2>💡 Fun Fact</h2>
+          <p style={{ fontSize: "1.1rem", lineHeight: 1.6, margin: 0, color: "#e2e8f0" }}>{funFact}</p>
+        </div>
+      )}
 
       <div className="insight-grid">
         <div className="card">
