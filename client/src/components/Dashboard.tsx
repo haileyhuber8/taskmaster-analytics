@@ -297,6 +297,26 @@ export default function Dashboard() {
             </tbody>
           </table>
         </div>
+
+        <div className="card">
+          <h2>🌍 Global Franchise</h2>
+          <p style={{ color: "var(--tm-text-muted)", marginBottom: "0.75rem", fontSize: "0.9rem" }}>
+            Taskmaster has been adapted worldwide. Here's how the UK show compares across the franchise.
+          </p>
+          <table className="comparison-table">
+            <thead><tr><th>Stat</th><th>Detail</th></tr></thead>
+            <tbody>
+              <tr><td>🌐 International Versions</td><td><strong>20+</strong> countries</td></tr>
+              <tr><td>🇬🇧 UK Tasks Assigned</td><td><strong>1,049+</strong> by Greg Davies</td></tr>
+              <tr><td>🚫 Greg's DQ Rate</td><td><strong>0.33</strong> per task</td></tr>
+              <tr><td>⭐ Greg's Bonus Rate</td><td><strong>0.031</strong> per task (one of the stingiest!)</td></tr>
+              <tr><td>🇩🇰 Most DQs (Global)</td><td><strong>Lasse Rimmer</strong> (Denmark) — 0.58/task</td></tr>
+              <tr><td>🇫🇮 Most Bonuses (Global)</td><td><strong>Jaakko Saariluoma</strong> (Finland) — 0.48/task</td></tr>
+              <tr><td>🇳🇿 NZ Taskmaster</td><td><strong>Rose Matafeo</strong> (Series 9 contestant!)</td></tr>
+              <tr><td>📅 UK Seasons 21 & 22</td><td>Both confirmed for <strong>2026</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

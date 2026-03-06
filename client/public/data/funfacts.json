@@ -1,62 +1,655 @@
 [
-  { "text": "Mel Giedroyc (Series 4) is the only contestant to win the same prize twice — Ray's shampoo bag.", "seasons": [4], "contestants": ["Mel Giedroyc"] },
-  { "text": "The Taskmaster house is actually a former groundskeeper's cottage on a golf course in Chiswick, west London.", "seasons": [], "contestants": [] },
-  { "text": "Alex Horne never intended to be the Taskmaster himself — he always wanted to be on the ground with contestants.", "seasons": [], "contestants": [] },
-  { "text": "Bob Mortimer (Series 5) filmed some tasks in November and others in May — flowers had bloomed between shoots.", "seasons": [5], "contestants": ["Bob Mortimer"] },
-  { "text": "Mel Giedroyc completed all her tasks in roughly a single week — one of the fastest filming stints ever.", "seasons": [4], "contestants": ["Mel Giedroyc"] },
-  { "text": "The show was originally a live stage show at the Edinburgh Festival Fringe before becoming a TV series.", "seasons": [], "contestants": [] },
-  { "text": "Greg Davies' golden head bust that winners receive is made of resin and weighs about 2kg.", "seasons": [], "contestants": [] },
-  { "text": "There's a task involving popping an entire roll of bubble wrap that has been tried in Series 1, 2, and 3 — but never aired because it made terrible TV.", "seasons": [1, 2, 3], "contestants": [] },
-  { "text": "Frank Skinner agreed to do Series 1, which Alex Horne credits as a major stamp of approval that helped recruit future contestants.", "seasons": [1], "contestants": ["Frank Skinner"] },
-  { "text": "The Taskmaster crew is surprisingly small — only about 15–20 people work behind the scenes.", "seasons": [], "contestants": [] },
-  { "text": "Alex Horne comes up with the majority of tasks himself, though the small crew pitches in ideas too.", "seasons": [], "contestants": [] },
-  { "text": "Contestants are kept in a tiny green room between tasks — described as 'fundamentally rock 'n' roll' with a jar of sweets and a fridge.", "seasons": [], "contestants": [] },
-  { "text": "Each series, the Taskmaster house is redecorated with a different theme inspired by a specific artist.", "seasons": [], "contestants": [] },
-  { "text": "The studio tasks are always tested beforehand, but location tasks are almost never tried out before filming.", "seasons": [], "contestants": [] },
-  { "text": "Romesh Ranganathan nearly choked on a watermelon on the very first day of filming Series 1.", "seasons": [1], "contestants": ["Romesh Ranganathan"] },
-  { "text": "Ed Gamble (Series 9 winner) is the only contestant who went on to co-host the Taskmaster podcast.", "seasons": [9], "contestants": ["Ed Gamble"] },
-  { "text": "Jo Brand (Series 9) famously chose a caravan holiday for the entire cast as the final prize — nobody wanted it.", "seasons": [9], "contestants": ["Jo Brand"] },
-  { "text": "James Acaster (Series 7) scored the lowest ever points in a single episode with just 2 points.", "seasons": [7], "contestants": ["James Acaster"] },
-  { "text": "Lee Mack (Series 11) won 7 out of 10 episodes — the highest episode win rate in show history at the time.", "seasons": [11], "contestants": ["Lee Mack"] },
-  { "text": "The show moved from Dave to Channel 4 starting with Series 10.", "seasons": [10], "contestants": [] },
-  { "text": "Bob Mortimer's Fuji 9 segment and 'Do we need em?' became one of the most beloved moments in Taskmaster history.", "seasons": [5], "contestants": ["Bob Mortimer"] },
-  { "text": "There have been over 45 international versions of Taskmaster, including in Norway, Sweden, and New Zealand.", "seasons": [], "contestants": [] },
-  { "text": "The Taskmaster house garden has been the site of over 500 individual task attempts across all series.", "seasons": [], "contestants": [] },
-  { "text": "Liza Tarbuck (Series 6 winner) was known for her creative lateral thinking, often finding loopholes in tasks.", "seasons": [6], "contestants": ["Liza Tarbuck"] },
-  { "text": "Rhod Gilbert (Series 7) holds the record for the most heated arguments with the Taskmaster Greg Davies.", "seasons": [7], "contestants": ["Rhod Gilbert"] },
-  { "text": "The iconic 'Your time starts now' phrase was inspired by Alex Horne's love of countdown-based games.", "seasons": [], "contestants": [] },
-  { "text": "Paul Sinha (Series 8) is also a professional quizzer known as 'The Sinnerman' on The Chase.", "seasons": [8], "contestants": ["Paul Sinha"] },
-  { "text": "Noel Fielding (Series 4 winner) brought his signature surreal art style to many creative tasks.", "seasons": [4], "contestants": ["Noel Fielding"] },
-  { "text": "Sarah Kendall (Series 11 winner) was the first Australian contestant on the show.", "seasons": [11], "contestants": ["Sarah Kendall"] },
-  { "text": "The Champion of Champions specials bring back series winners to compete against each other for the ultimate title.", "seasons": [], "contestants": [] },
-  { "text": "Josh Widdicombe won the very first series of Taskmaster and set the bar for future champions.", "seasons": [1], "contestants": ["Josh Widdicombe"] },
-  { "text": "Tim Key (Series 1) is a poet as well as a comedian — he brought a uniquely literary approach to tasks.", "seasons": [1], "contestants": ["Tim Key"] },
-  { "text": "Roisin Conaty (Series 1) accidentally left a potato in her handbag for weeks during a task.", "seasons": [1], "contestants": ["Roisin Conaty"] },
-  { "text": "Joe Wilkinson (Series 2) was disqualified from a task for stepping over a line — one of the show's most infamous moments.", "seasons": [2], "contestants": ["Joe Wilkinson"] },
-  { "text": "Richard Osman (Series 2) is 6'7\" tall, making him one of the tallest contestants in the show's history.", "seasons": [2], "contestants": ["Richard Osman"] },
-  { "text": "Katherine Ryan (Series 2) was the first Canadian contestant on the show.", "seasons": [2], "contestants": ["Katherine Ryan"] },
-  { "text": "Rob Beckett (Series 3 winner) credits his competitive nature for carrying him to victory.", "seasons": [3], "contestants": ["Rob Beckett"] },
-  { "text": "Dave Gorman (Series 3) is known for his data-driven comedy — a skill that sometimes helped with analytical tasks.", "seasons": [3], "contestants": ["Dave Gorman"] },
-  { "text": "Hugh Dennis (Series 4) was one of the oldest contestants when he appeared and brought dad-joke energy to every task.", "seasons": [4], "contestants": ["Hugh Dennis"] },
-  { "text": "Joe Lycett (Series 4) legally changed his name to Hugo Boss in a publicity stunt before appearing on the show.", "seasons": [4], "contestants": ["Joe Lycett"] },
-  { "text": "Aisling Bea (Series 5) was the first Irish contestant on Taskmaster.", "seasons": [5], "contestants": ["Aisling Bea"] },
-  { "text": "Sally Phillips (Series 5) famously tried to befriend the Taskmaster's assistant during tasks.", "seasons": [5], "contestants": ["Sally Phillips"] },
-  { "text": "Nish Kumar (Series 5) is known for being one of the most enthusiastic but least successful contestants.", "seasons": [5], "contestants": ["Nish Kumar"] },
-  { "text": "Russell Howard (Series 6) brought boundless energy and often tried physical solutions to creative tasks.", "seasons": [6], "contestants": ["Russell Howard"] },
-  { "text": "Tim Vine (Series 6) holds a Guinness World Record for the most jokes told in an hour.", "seasons": [6], "contestants": ["Tim Vine"] },
-  { "text": "Phil Wang (Series 7) famously asked philosophical questions about whether something counted as completing a task.", "seasons": [7], "contestants": ["Phil Wang"] },
-  { "text": "Kerry Godliman (Series 7 winner) was praised for her consistent, methodical approach to tasks.", "seasons": [7], "contestants": ["Kerry Godliman"] },
-  { "text": "Iain Stirling (Series 8) is the voice of Love Island — he brought narration-style humour to his tasks.", "seasons": [8], "contestants": ["Iain Stirling"] },
-  { "text": "Sian Gibson (Series 8) is best known for co-starring in Peter Kay's Car Share.", "seasons": [8], "contestants": ["Sian Gibson"] },
-  { "text": "Lou Sanders (Series 8 winner) had one of the most unpredictable and chaotic approaches to tasks.", "seasons": [8], "contestants": ["Lou Sanders"] },
-  { "text": "Rose Matafeo (Series 9) won the Edinburgh Comedy Award the same year she appeared on Taskmaster.", "seasons": [9], "contestants": ["Rose Matafeo"] },
-  { "text": "David Baddiel (Series 9) admitted to being terrible at practical tasks but excelled at prize tasks.", "seasons": [9], "contestants": ["David Baddiel"] },
-  { "text": "Mike Wozniak (Series 11) became a fan favourite for his gentlemanly demeanour and unexpected task solutions.", "seasons": [11], "contestants": ["Mike Wozniak"] },
-  { "text": "Charlotte Ritchie (Series 11) revealed that filming tasks took about five solid days of shooting.", "seasons": [11], "contestants": ["Charlotte Ritchie"] },
-  { "text": "Victoria Coren Mitchell (Series 12) is the only person to win two separate televised poker tournaments.", "seasons": [12], "contestants": ["Victoria Coren Mitchell"] },
-  { "text": "Alan Davies (Series 12) is best known as the permanent panelist on QI for over 19 years.", "seasons": [12], "contestants": ["Alan Davies"] },
-  { "text": "Dara Ó Briain (Series 14 winner) has a degree in mathematical physics from University College Dublin.", "seasons": [14], "contestants": ["Dara Ó Briain"] },
-  { "text": "Fern Brady (Series 14) wrote a bestselling memoir about growing up autistic before appearing on the show.", "seasons": [14], "contestants": ["Fern Brady"] },
-  { "text": "Frankie Boyle (Series 15) was known for his darkly creative approaches to the prize tasks.", "seasons": [15], "contestants": ["Frankie Boyle"] },
-  { "text": "Jack Dee (Series 18 winner) was the original host of I'm a Celebrity before becoming a Taskmaster champion.", "seasons": [18], "contestants": ["Jack Dee"] }
+  {
+    "text": "Mel Giedroyc (Series 4) is the only contestant to win the same prize twice — Ray's shampoo bag.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Mel Giedroyc"
+    ]
+  },
+  {
+    "text": "The Taskmaster house is actually a former groundskeeper's cottage on a golf course in Chiswick, west London.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Alex Horne never intended to be the Taskmaster himself — he always wanted to be on the ground with contestants.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Bob Mortimer (Series 5) filmed some tasks in November and others in May — flowers had bloomed between shoots.",
+    "seasons": [
+      5
+    ],
+    "contestants": [
+      "Bob Mortimer"
+    ]
+  },
+  {
+    "text": "Mel Giedroyc completed all her tasks in roughly a single week — one of the fastest filming stints ever.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Mel Giedroyc"
+    ]
+  },
+  {
+    "text": "The show was originally a live stage show at the Edinburgh Festival Fringe before becoming a TV series.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Greg Davies' golden head bust that winners receive is made of resin and weighs about 2kg.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "There's a task involving popping an entire roll of bubble wrap that has been tried in Series 1, 2, and 3 — but never aired because it made terrible TV.",
+    "seasons": [
+      1,
+      2,
+      3
+    ],
+    "contestants": []
+  },
+  {
+    "text": "Frank Skinner agreed to do Series 1, which Alex Horne credits as a major stamp of approval that helped recruit future contestants.",
+    "seasons": [
+      1
+    ],
+    "contestants": [
+      "Frank Skinner"
+    ]
+  },
+  {
+    "text": "The Taskmaster crew is surprisingly small — only about 15–20 people work behind the scenes.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Alex Horne comes up with the majority of tasks himself, though the small crew pitches in ideas too.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Contestants are kept in a tiny green room between tasks — described as 'fundamentally rock 'n' roll' with a jar of sweets and a fridge.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Each series, the Taskmaster house is redecorated with a different theme inspired by a specific artist.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "The studio tasks are always tested beforehand, but location tasks are almost never tried out before filming.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Romesh Ranganathan nearly choked on a watermelon on the very first day of filming Series 1.",
+    "seasons": [
+      1
+    ],
+    "contestants": [
+      "Romesh Ranganathan"
+    ]
+  },
+  {
+    "text": "Ed Gamble (Series 9 winner) is the only contestant who went on to co-host the Taskmaster podcast.",
+    "seasons": [
+      9
+    ],
+    "contestants": [
+      "Ed Gamble"
+    ]
+  },
+  {
+    "text": "Jo Brand (Series 9) famously chose a caravan holiday for the entire cast as the final prize — nobody wanted it.",
+    "seasons": [
+      9
+    ],
+    "contestants": [
+      "Jo Brand"
+    ]
+  },
+  {
+    "text": "James Acaster (Series 7) scored the lowest ever points in a single episode with just 2 points.",
+    "seasons": [
+      7
+    ],
+    "contestants": [
+      "James Acaster"
+    ]
+  },
+  {
+    "text": "Lee Mack (Series 11) won 7 out of 10 episodes — the highest episode win rate in show history at the time.",
+    "seasons": [
+      11
+    ],
+    "contestants": [
+      "Lee Mack"
+    ]
+  },
+  {
+    "text": "The show moved from Dave to Channel 4 starting with Series 10.",
+    "seasons": [
+      10
+    ],
+    "contestants": []
+  },
+  {
+    "text": "Bob Mortimer's Fuji 9 segment and 'Do we need em?' became one of the most beloved moments in Taskmaster history.",
+    "seasons": [
+      5
+    ],
+    "contestants": [
+      "Bob Mortimer"
+    ]
+  },
+  {
+    "text": "There have been over 45 international versions of Taskmaster, including in Norway, Sweden, and New Zealand.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "The Taskmaster house garden has been the site of over 500 individual task attempts across all series.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Liza Tarbuck (Series 6 winner) was known for her creative lateral thinking, often finding loopholes in tasks.",
+    "seasons": [
+      6
+    ],
+    "contestants": [
+      "Liza Tarbuck"
+    ]
+  },
+  {
+    "text": "Rhod Gilbert (Series 7) holds the record for the most heated arguments with the Taskmaster Greg Davies.",
+    "seasons": [
+      7
+    ],
+    "contestants": [
+      "Rhod Gilbert"
+    ]
+  },
+  {
+    "text": "The iconic 'Your time starts now' phrase was inspired by Alex Horne's love of countdown-based games.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Paul Sinha (Series 8) is also a professional quizzer known as 'The Sinnerman' on The Chase.",
+    "seasons": [
+      8
+    ],
+    "contestants": [
+      "Paul Sinha"
+    ]
+  },
+  {
+    "text": "Noel Fielding (Series 4 winner) brought his signature surreal art style to many creative tasks.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Noel Fielding"
+    ]
+  },
+  {
+    "text": "Sarah Kendall (Series 11 winner) was the first Australian contestant on the show.",
+    "seasons": [
+      11
+    ],
+    "contestants": [
+      "Sarah Kendall"
+    ]
+  },
+  {
+    "text": "The Champion of Champions specials bring back series winners to compete against each other for the ultimate title.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Josh Widdicombe won the very first series of Taskmaster and set the bar for future champions.",
+    "seasons": [
+      1
+    ],
+    "contestants": [
+      "Josh Widdicombe"
+    ]
+  },
+  {
+    "text": "Tim Key (Series 1) is a poet as well as a comedian — he brought a uniquely literary approach to tasks.",
+    "seasons": [
+      1
+    ],
+    "contestants": [
+      "Tim Key"
+    ]
+  },
+  {
+    "text": "Roisin Conaty (Series 1) accidentally left a potato in her handbag for weeks during a task.",
+    "seasons": [
+      1
+    ],
+    "contestants": [
+      "Roisin Conaty"
+    ]
+  },
+  {
+    "text": "Joe Wilkinson (Series 2) was disqualified from a task for stepping over a line — one of the show's most infamous moments.",
+    "seasons": [
+      2
+    ],
+    "contestants": [
+      "Joe Wilkinson"
+    ]
+  },
+  {
+    "text": "Richard Osman (Series 2) is 6'7\" tall, making him one of the tallest contestants in the show's history.",
+    "seasons": [
+      2
+    ],
+    "contestants": [
+      "Richard Osman"
+    ]
+  },
+  {
+    "text": "Katherine Ryan (Series 2) was the first Canadian contestant on the show.",
+    "seasons": [
+      2
+    ],
+    "contestants": [
+      "Katherine Ryan"
+    ]
+  },
+  {
+    "text": "Rob Beckett (Series 3 winner) credits his competitive nature for carrying him to victory.",
+    "seasons": [
+      3
+    ],
+    "contestants": [
+      "Rob Beckett"
+    ]
+  },
+  {
+    "text": "Dave Gorman (Series 3) is known for his data-driven comedy — a skill that sometimes helped with analytical tasks.",
+    "seasons": [
+      3
+    ],
+    "contestants": [
+      "Dave Gorman"
+    ]
+  },
+  {
+    "text": "Hugh Dennis (Series 4) was one of the oldest contestants when he appeared and brought dad-joke energy to every task.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Hugh Dennis"
+    ]
+  },
+  {
+    "text": "Joe Lycett (Series 4) legally changed his name to Hugo Boss in a publicity stunt before appearing on the show.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Joe Lycett"
+    ]
+  },
+  {
+    "text": "Aisling Bea (Series 5) was the first Irish contestant on Taskmaster.",
+    "seasons": [
+      5
+    ],
+    "contestants": [
+      "Aisling Bea"
+    ]
+  },
+  {
+    "text": "Sally Phillips (Series 5) famously tried to befriend the Taskmaster's assistant during tasks.",
+    "seasons": [
+      5
+    ],
+    "contestants": [
+      "Sally Phillips"
+    ]
+  },
+  {
+    "text": "Nish Kumar (Series 5) is known for being one of the most enthusiastic but least successful contestants.",
+    "seasons": [
+      5
+    ],
+    "contestants": [
+      "Nish Kumar"
+    ]
+  },
+  {
+    "text": "Russell Howard (Series 6) brought boundless energy and often tried physical solutions to creative tasks.",
+    "seasons": [
+      6
+    ],
+    "contestants": [
+      "Russell Howard"
+    ]
+  },
+  {
+    "text": "Tim Vine (Series 6) holds a Guinness World Record for the most jokes told in an hour.",
+    "seasons": [
+      6
+    ],
+    "contestants": [
+      "Tim Vine"
+    ]
+  },
+  {
+    "text": "Phil Wang (Series 7) famously asked philosophical questions about whether something counted as completing a task.",
+    "seasons": [
+      7
+    ],
+    "contestants": [
+      "Phil Wang"
+    ]
+  },
+  {
+    "text": "Kerry Godliman (Series 7 winner) was praised for her consistent, methodical approach to tasks.",
+    "seasons": [
+      7
+    ],
+    "contestants": [
+      "Kerry Godliman"
+    ]
+  },
+  {
+    "text": "Iain Stirling (Series 8) is the voice of Love Island — he brought narration-style humour to his tasks.",
+    "seasons": [
+      8
+    ],
+    "contestants": [
+      "Iain Stirling"
+    ]
+  },
+  {
+    "text": "Sian Gibson (Series 8) is best known for co-starring in Peter Kay's Car Share.",
+    "seasons": [
+      8
+    ],
+    "contestants": [
+      "Sian Gibson"
+    ]
+  },
+  {
+    "text": "Lou Sanders (Series 8 winner) had one of the most unpredictable and chaotic approaches to tasks.",
+    "seasons": [
+      8
+    ],
+    "contestants": [
+      "Lou Sanders"
+    ]
+  },
+  {
+    "text": "Rose Matafeo (Series 9) won the Edinburgh Comedy Award the same year she appeared on Taskmaster.",
+    "seasons": [
+      9
+    ],
+    "contestants": [
+      "Rose Matafeo"
+    ]
+  },
+  {
+    "text": "David Baddiel (Series 9) admitted to being terrible at practical tasks but excelled at prize tasks.",
+    "seasons": [
+      9
+    ],
+    "contestants": [
+      "David Baddiel"
+    ]
+  },
+  {
+    "text": "Mike Wozniak (Series 11) became a fan favourite for his gentlemanly demeanour and unexpected task solutions.",
+    "seasons": [
+      11
+    ],
+    "contestants": [
+      "Mike Wozniak"
+    ]
+  },
+  {
+    "text": "Charlotte Ritchie (Series 11) revealed that filming tasks took about five solid days of shooting.",
+    "seasons": [
+      11
+    ],
+    "contestants": [
+      "Charlotte Ritchie"
+    ]
+  },
+  {
+    "text": "Victoria Coren Mitchell (Series 12) is the only person to win two separate televised poker tournaments.",
+    "seasons": [
+      12
+    ],
+    "contestants": [
+      "Victoria Coren Mitchell"
+    ]
+  },
+  {
+    "text": "Alan Davies (Series 12) is best known as the permanent panelist on QI for over 19 years.",
+    "seasons": [
+      12
+    ],
+    "contestants": [
+      "Alan Davies"
+    ]
+  },
+  {
+    "text": "Dara Ó Briain (Series 14 winner) has a degree in mathematical physics from University College Dublin.",
+    "seasons": [
+      14
+    ],
+    "contestants": [
+      "Dara Ó Briain"
+    ]
+  },
+  {
+    "text": "Fern Brady (Series 14) wrote a bestselling memoir about growing up autistic before appearing on the show.",
+    "seasons": [
+      14
+    ],
+    "contestants": [
+      "Fern Brady"
+    ]
+  },
+  {
+    "text": "Frankie Boyle (Series 15) was known for his darkly creative approaches to the prize tasks.",
+    "seasons": [
+      15
+    ],
+    "contestants": [
+      "Frankie Boyle"
+    ]
+  },
+  {
+    "text": "Jack Dee (Series 18 winner) was the original host of I'm a Celebrity before becoming a Taskmaster champion.",
+    "seasons": [
+      18
+    ],
+    "contestants": [
+      "Jack Dee"
+    ]
+  },
+  {
+    "text": "John Robins (Series 17 winner) holds the all-time record for most points in a single series with 192.",
+    "seasons": [
+      17
+    ],
+    "contestants": [
+      "John Robins"
+    ]
+  },
+  {
+    "text": "Dara O Briain (Series 14) scored a perfect 30 points in a single episode — tied for the highest single-episode score ever.",
+    "seasons": [
+      14
+    ],
+    "contestants": [
+      "Dara O Briain"
+    ]
+  },
+  {
+    "text": "Mel Giedroyc holds the record for lowest single-episode score: just 3 points, after receiving a -5 penalty for eating chocolate.",
+    "seasons": [
+      4
+    ],
+    "contestants": [
+      "Mel Giedroyc"
+    ]
+  },
+  {
+    "text": "Richard Herring (Series 10) holds the record for most episode wins in a single series with 6.",
+    "seasons": [
+      10
+    ],
+    "contestants": [
+      "Richard Herring"
+    ]
+  },
+  {
+    "text": "Phil Wang (Series 7) is the only contestant to never finish in the top two in any episode he appeared in.",
+    "seasons": [
+      7
+    ],
+    "contestants": [
+      "Phil Wang"
+    ]
+  },
+  {
+    "text": "Mike Wozniak (Series 11) was once disqualified from every single pre-recorded task in one episode.",
+    "seasons": [
+      11
+    ],
+    "contestants": [
+      "Mike Wozniak"
+    ]
+  },
+  {
+    "text": "Greg Davies has assigned over 1,049 tasks across all UK series — and handed out 348 disqualifications (0.33 per task).",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Greg Davies has given out only 32 discretionary bonus points across 1,049 tasks — making him one of the stingiest Taskmasters globally.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Taskmaster has been adapted in over 20 countries including Norway (Kongen Befaler), Sweden (Bast i Test), Finland (Suurmestari), and New Zealand.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "The Finnish version Suurmestari has won the Golden Venla award for Best Game Show for six consecutive years (2020-2025).",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Alex Horne personally visited the set of Taskmaster Iceland and sent them seven completely original tasks for their debut season.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "The Danish Taskmaster Lasse Rimmer holds the franchise record for most disqualifications per task at 0.58 — nearly double Greg Davies.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Taskmaster Iceland (Taskmaster Island) debuted in March 2026, making it one of the newest international versions.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Taskmaster Estonia is called Taskmaster - kuninga kasul which translates as by the order of the king.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Rose Matafeo, who competed in Series 9 of the UK show, went on to become the Taskmaster for Taskmaster New Zealand.",
+    "seasons": [
+      9
+    ],
+    "contestants": [
+      "Rose Matafeo"
+    ]
+  },
+  {
+    "text": "The Taskmaster house was almost never a part of the show — Alex originally planned to film at the contestants own homes.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "There is a task involving bubble wrap that was tried in Series 1, 2, and 3 but never aired — it just made terrible television.",
+    "seasons": [
+      1,
+      2,
+      3
+    ],
+    "contestants": []
+  },
+  {
+    "text": "Only about 15-20 people work behind the scenes on Taskmaster — a remarkably small crew for a major TV show.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Studio tasks are always tested beforehand, but location tasks are almost never tried out before the contestants attempt them.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Each series has a different art theme inspired by a specific artist — Series 6 was themed around M.C. Escher.",
+    "seasons": [
+      6
+    ],
+    "contestants": []
+  },
+  {
+    "text": "Eggs, watermelons, coconuts, and bananas are among the most frequently used objects across all Taskmaster tasks worldwide.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "The most common task categories are drawing, throwing things, finding things, and constructing things.",
+    "seasons": [],
+    "contestants": []
+  },
+  {
+    "text": "Guz Khan (Series 12) holds the record for most episode wins without winning the overall series — he won 4 episodes.",
+    "seasons": [
+      12
+    ],
+    "contestants": [
+      "Guz Khan"
+    ]
+  },
+  {
+    "text": "Mae Martin (Series 15 winner) had the second-highest points per task average in show history at 3.48.",
+    "seasons": [
+      15
+    ],
+    "contestants": [
+      "Mae Martin"
+    ]
+  },
+  {
+    "text": "Series 21 and 22 of Taskmaster UK are both confirmed for 2026, making it one of the longest-running panel shows in UK television.",
+    "seasons": [],
+    "contestants": []
+  }
 ]
