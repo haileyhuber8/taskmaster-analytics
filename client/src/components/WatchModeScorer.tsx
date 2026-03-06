@@ -29,12 +29,12 @@ interface Props {
 }
 
 export default function WatchModeScorer({ tasks, players, seasonNumber, onComplete, onCancel }: Props) {
-  const scorableTasks = tasks.filter((t) => t.judgement !== "objective");
   const [currentTaskIdx, setCurrentTaskIdx] = useState(0);
   const [currentPlayerIdx, setCurrentPlayerIdx] = useState(0);
   const [allScores, setAllScores] = useState<Record<string, Record<number, Record<number, number>>>>({});
   // allScores[playerId][taskId][contestantId] = score
   const [showResults, setShowResults] = useState(false);
+  const [revealedObjective, setRevealedObjective] = useState(false);
   const [funFacts, setFunFacts] = useState<FunFact[]>([]);
   const [shownFacts, setShownFacts] = useState<Record<string, Set<string>>>({}); // playerId -> set of shown fact texts
 
@@ -49,17 +49,14 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
   // Pick a relevant, non-repeated fun fact for the current player
   const getFactForPlayer = (playerId: string): string | null => {
     const seen = shownFacts[playerId] || new Set<string>();
-    // Priority 1: facts about contestants in this season
     const contestantFacts = funFacts.filter(
       (f) => f.contestants.some((c) => seasonContestants.includes(c)) && !seen.has(f.text)
     );
     if (contestantFacts.length > 0) return contestantFacts[Math.floor(Math.random() * contestantFacts.length)].text;
-    // Priority 2: facts about this season number
     const seasonFacts = funFacts.filter(
       (f) => f.seasons.includes(seasonNumber) && !seen.has(f.text)
     );
     if (seasonFacts.length > 0) return seasonFacts[Math.floor(Math.random() * seasonFacts.length)].text;
-    // Priority 3: general facts (no season/contestant tags)
     const generalFacts = funFacts.filter(
       (f) => f.seasons.length === 0 && f.contestants.length === 0 && !seen.has(f.text)
     );
@@ -67,12 +64,14 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
     return null;
   };
 
-  // Memoize the current fact so it doesn't change on re-render
   const [currentFact, setCurrentFact] = useState<string | null>(null);
 
   useEffect(() => {
     if (funFacts.length === 0) return;
-    const playerId = players[currentPlayerIdx]?.id;
+    // For objective tasks, use first player's id for fact tracking
+    const playerId = currentTask?.judgement === "objective"
+      ? players[0]?.id
+      : players[currentPlayerIdx]?.id;
     if (!playerId) return;
     const fact = getFactForPlayer(playerId);
     setCurrentFact(fact);
@@ -86,10 +85,15 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentTaskIdx, currentPlayerIdx, funFacts]);
 
-  const currentTask = scorableTasks[currentTaskIdx];
+  const currentTask = tasks[currentTaskIdx];
+  const isObjective = currentTask?.judgement === "objective";
+  const scorableTasks = tasks.filter((t) => t.judgement !== "objective");
   const currentPlayer = players[currentPlayerIdx];
-  const totalSteps = scorableTasks.length * players.length;
-  const currentStep = currentTaskIdx * players.length + currentPlayerIdx + 1;
+
+  // For subjective tasks: step counting only counts subjective tasks × players
+  const subjectiveIdx = scorableTasks.indexOf(currentTask);
+  const totalSteps = isObjective ? null : scorableTasks.length * players.length;
+  const currentStep = isObjective ? null : subjectiveIdx * players.length + currentPlayerIdx + 1;
 
   const playerScoresForTask = allScores[currentPlayer?.id]?.[currentTask?.id] || {};
 
@@ -111,15 +115,29 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
   );
 
   const handleNext = () => {
-    if (currentPlayerIdx < players.length - 1) {
+    if (isObjective) {
+      // Objective tasks: advance to next task (no per-player rotation)
+      setRevealedObjective(false);
+      if (currentTaskIdx < tasks.length - 1) {
+        setCurrentTaskIdx(currentTaskIdx + 1);
+        setCurrentPlayerIdx(0);
+      } else {
+        setShowResults(true);
+      }
+    } else if (currentPlayerIdx < players.length - 1) {
       setCurrentPlayerIdx(currentPlayerIdx + 1);
-    } else if (currentTaskIdx < scorableTasks.length - 1) {
+    } else if (currentTaskIdx < tasks.length - 1) {
       setCurrentTaskIdx(currentTaskIdx + 1);
       setCurrentPlayerIdx(0);
     } else {
       setShowResults(true);
     }
   };
+
+  // Also reset reveal state when task changes
+  useEffect(() => {
+    setRevealedObjective(false);
+  }, [currentTaskIdx]);
 
   if (showResults) {
     return (
@@ -154,72 +172,171 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
     );
   }
 
-  return (
-    <div className="card">
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-        <h2>
-          Task {currentTaskIdx + 1}/{scorableTasks.length}
-        </h2>
-        <button onClick={onCancel} style={{ background: "none", border: "1px solid var(--tm-cream-dark)", color: "var(--tm-text-muted)", padding: "0.4rem 1rem", borderRadius: "6px", cursor: "pointer" }}>
-          Cancel
-        </button>
-      </div>
-
-      <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
-        <p style={{ color: "var(--tm-red)", fontWeight: 700, marginBottom: "0.5rem" }}>{currentTask.name}</p>
-        <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
-          Type: {currentTask.judgement} · Step {currentStep}/{totalSteps}
-        </p>
-      </div>
-
-      <div style={{
-        background: `${currentPlayer.color}20`,
-        border: `2px solid ${currentPlayer.color}`,
-        borderRadius: "8px",
-        padding: "1rem",
-        marginBottom: "1rem",
-        textAlign: "center",
-      }}>
-        <p style={{ fontSize: "1.2rem", fontWeight: 700 }}>
-          🎯 {currentPlayer.name}, score this task!
-        </p>
-        <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
-          Award 1-5 points to each contestant
-        </p>
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-        {currentTask.contestants.map((c) => (
-          <div key={c.id} style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            background: "var(--tm-cream-dark)",
-          }}>
-            <span style={{ fontWeight: 600 }}>{c.name}</span>
-            <div style={{ display: "flex", gap: "0.25rem" }}>
-              {[1, 2, 3, 4, 5].map((score) => (
-                <button
-                  key={score}
-                  onClick={() => setScore(c.id, score)}
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    borderRadius: "8px",
-                    border: playerScoresForTask[c.id] === score ? "2px solid var(--tm-red)" : "1px solid var(--tm-cream-dark)",
-                    background: playerScoresForTask[c.id] === score ? "var(--tm-red-bright)" : "white",
-                    color: playerScoresForTask[c.id] === score ? "white" : "var(--tm-text-dark)",
-                    fontWeight: 700,
-                    cursor: "pointer",
-                    fontSize: "1rem",
-                  }}
-                >
-                  {score}
-                </button>
-              ))}
-            </div>
+  // Objective task view
+  if (isObjective) {
+    return (
+      <div>
+        <div className="card">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+            <h2>Task {currentTaskIdx + 1}/{tasks.length}</h2>
+            <button onClick={onCancel} style={{ background: "none", border: "1px solid var(--tm-cream-dark)", color: "var(--tm-text-muted)", padding: "0.4rem 1rem", borderRadius: "6px", cursor: "pointer" }}>
+              Cancel
+            </button>
           </div>
-        ))}
+
+          <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
+            <p style={{ color: "var(--tm-red)", fontWeight: 700, marginBottom: "0.5rem" }}>{currentTask.name}</p>
+            <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
+              Type: objective — scores are determined by measurable results
+            </p>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+            {currentTask.contestants.map((c) => (
+              <div key={c.id} style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                background: "var(--tm-cream-dark)",
+                padding: "0.5rem 1rem",
+                borderRadius: "6px",
+              }}>
+                <span style={{ fontWeight: 600 }}>{c.name}</span>
+                <span style={{ fontWeight: 700, fontSize: "1.1rem" }}>
+                  {revealedObjective ? `${c.actualScore} pts` : "? ? ?"}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {!revealedObjective && (
+            <button
+              onClick={() => setRevealedObjective(true)}
+              style={{
+                width: "100%",
+                marginTop: "1rem",
+                padding: "0.75rem",
+                background: "none",
+                border: "1px solid var(--tm-cream-dark)",
+                color: "var(--tm-text-muted)",
+                borderRadius: "8px",
+                cursor: "pointer",
+                fontSize: "0.95rem",
+              }}
+            >
+              👀 Reveal Scores
+            </button>
+          )}
+
+          <button
+            className="btn-primary"
+            style={{ width: "100%", marginTop: "0.5rem", padding: "0.75rem" }}
+            onClick={handleNext}
+          >
+            {currentTaskIdx === tasks.length - 1 ? "🏆 See Results!" : "Next Task →"}
+          </button>
+        </div>
+
+        {currentFact && (
+          <div style={{
+            background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+            border: "1px solid #334155",
+            borderRadius: "8px",
+            padding: "0.75rem 1rem",
+            marginTop: "1rem",
+          }}>
+            <p style={{ margin: 0, fontSize: "0.85rem", color: "#94a3b8" }}>
+              <span style={{ marginRight: "0.4rem" }}>💡</span>
+              {currentFact}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // Subjective/combo task view
+  return (
+    <div>
+      <div className="card">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+          <h2>
+            Task {currentTaskIdx + 1}/{tasks.length}
+          </h2>
+          <button onClick={onCancel} style={{ background: "none", border: "1px solid var(--tm-cream-dark)", color: "var(--tm-text-muted)", padding: "0.4rem 1rem", borderRadius: "6px", cursor: "pointer" }}>
+            Cancel
+          </button>
+        </div>
+
+        <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
+          <p style={{ color: "var(--tm-red)", fontWeight: 700, marginBottom: "0.5rem" }}>{currentTask.name}</p>
+          <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
+            Type: {currentTask.judgement} · Step {currentStep}/{totalSteps}
+          </p>
+        </div>
+
+        <div style={{
+          background: `${currentPlayer.color}20`,
+          border: `2px solid ${currentPlayer.color}`,
+          borderRadius: "8px",
+          padding: "1rem",
+          marginBottom: "1rem",
+          textAlign: "center",
+        }}>
+          <p style={{ fontSize: "1.2rem", fontWeight: 700 }}>
+            🎯 {currentPlayer.name}, score this task!
+          </p>
+          <p style={{ color: "var(--tm-text-muted)", fontSize: "0.85rem" }}>
+            Award 1-5 points to each contestant
+          </p>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+          {currentTask.contestants.map((c) => (
+            <div key={c.id} style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              background: "var(--tm-cream-dark)",
+            }}>
+              <span style={{ fontWeight: 600 }}>{c.name}</span>
+              <div style={{ display: "flex", gap: "0.25rem" }}>
+                {[1, 2, 3, 4, 5].map((score) => (
+                  <button
+                    key={score}
+                    onClick={() => setScore(c.id, score)}
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "8px",
+                      border: playerScoresForTask[c.id] === score ? "2px solid var(--tm-red)" : "1px solid var(--tm-cream-dark)",
+                      background: playerScoresForTask[c.id] === score ? "var(--tm-red-bright)" : "white",
+                      color: playerScoresForTask[c.id] === score ? "white" : "var(--tm-text-dark)",
+                      fontWeight: 700,
+                      cursor: "pointer",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    {score}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <button
+          className="btn-primary"
+          style={{ width: "100%", marginTop: "1rem", padding: "0.75rem" }}
+          onClick={handleNext}
+          disabled={!allContestantsScored}
+        >
+          {currentTaskIdx === tasks.length - 1 && currentPlayerIdx === players.length - 1
+            ? "🏆 See Results!"
+            : currentPlayerIdx === players.length - 1
+            ? "Next Task →"
+            : `Next: ${players[currentPlayerIdx + 1].name}'s turn →`}
+        </button>
       </div>
 
       {currentFact && (
@@ -236,19 +353,6 @@ export default function WatchModeScorer({ tasks, players, seasonNumber, onComple
           </p>
         </div>
       )}
-
-      <button
-        className="btn-primary"
-        style={{ width: "100%", marginTop: "1rem", padding: "0.75rem" }}
-        onClick={handleNext}
-        disabled={!allContestantsScored}
-      >
-        {currentTaskIdx === scorableTasks.length - 1 && currentPlayerIdx === players.length - 1
-          ? "🏆 See Results!"
-          : currentPlayerIdx === players.length - 1
-          ? "Next Task →"
-          : `Next: ${players[currentPlayerIdx + 1].name}'s turn →`}
-      </button>
     </div>
   );
 }
