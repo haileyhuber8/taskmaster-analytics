@@ -1,0 +1,157 @@
+{
+  "totalContestants": 100,
+  "totalSeasons": 20,
+  "winners": {
+    "count": 20,
+    "avgPointsPerTask": 3.16,
+    "avgPointsPerEpisode": 16.96,
+    "avgEpisodeWinPct": 29.9,
+    "avgTaskWinPct": 30.4,
+    "byTaskType": {
+      "prize": 3.2,
+      "filmed": 3.13,
+      "live": 3.2
+    },
+    "byActivity": {
+      "creative": 3.2,
+      "mental": 3.11,
+      "physical": 3.26,
+      "social": 3.13
+    },
+    "byJudgement": {
+      "objective": 3.14,
+      "subjective": 0,
+      "combo": 0
+    }
+  },
+  "nonWinners": {
+    "count": 80,
+    "avgPointsPerTask": 2.96,
+    "avgPointsPerEpisode": 14.94,
+    "avgEpisodeWinPct": 19.51,
+    "avgTaskWinPct": 25.27,
+    "byTaskType": {
+      "prize": 3.01,
+      "filmed": 2.81,
+      "live": 2.73
+    },
+    "byActivity": {
+      "creative": 3.04,
+      "mental": 2.72,
+      "physical": 2.69,
+      "social": 2.84
+    },
+    "byJudgement": {
+      "objective": 2.65,
+      "subjective": 0,
+      "combo": 0
+    }
+  },
+  "seasonWinners": [
+    {
+      "season": 1,
+      "name": "Josh Widdicombe",
+      "id": 69
+    },
+    {
+      "season": 2,
+      "name": "Jon Richardson",
+      "id": 49
+    },
+    {
+      "season": 3,
+      "name": "Rob Beckett",
+      "id": 8
+    },
+    {
+      "season": 4,
+      "name": "Noel Fielding",
+      "id": 21
+    },
+    {
+      "season": 5,
+      "name": "Bob Mortimer",
+      "id": 42
+    },
+    {
+      "season": 6,
+      "name": "Liza Tarbuck",
+      "id": 59
+    },
+    {
+      "season": 7,
+      "name": "Kerry Godliman",
+      "id": 26
+    },
+    {
+      "season": 8,
+      "name": "Lou Sanders",
+      "id": 54
+    },
+    {
+      "season": 9,
+      "name": "Ed Gamble",
+      "id": 22
+    },
+    {
+      "season": 10,
+      "name": "Richard Herring",
+      "id": 31
+    },
+    {
+      "season": 11,
+      "name": "Sarah Kendall",
+      "id": 177
+    },
+    {
+      "season": 12,
+      "name": "Morgana Robinson",
+      "id": 243
+    },
+    {
+      "season": 13,
+      "name": "Sophie Duker",
+      "id": 312
+    },
+    {
+      "season": 14,
+      "name": "Dara Ó Briain",
+      "id": 378
+    },
+    {
+      "season": 15,
+      "name": "Mae Martin",
+      "id": 395
+    },
+    {
+      "season": 16,
+      "name": "Sam Campbell",
+      "id": 456
+    },
+    {
+      "season": 17,
+      "name": "John Robins",
+      "id": 487
+    },
+    {
+      "season": 18,
+      "name": "Jack Dee",
+      "id": 564
+    },
+    {
+      "season": 19,
+      "name": "Rosie Ramsey",
+      "id": 600
+    },
+    {
+      "season": 20,
+      "name": "Maisie Adam",
+      "id": 693
+    }
+  ],
+  "keyInsights": [
+    "Comparing season winners vs non-winners across all task categories",
+    "Task type performance correlations with series victory",
+    "Episode win percentage patterns for champions"
+  ]
+}

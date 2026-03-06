@@ -197,7 +197,6 @@ function ResultsView({
   onDone: () => void;
 }) {
   // Calculate totals per contestant per player
-  const allTasks = [...tasks, ...objectiveTasks];
   const contestantNames = tasks[0]?.contestants.map((c) => c.name) || [];
   const contestantIds = tasks[0]?.contestants.map((c) => c.id) || [];
 

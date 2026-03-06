@@ -2,10 +2,6 @@ import { useState } from "react";
 import { useProfiles } from "../hooks/useWatchMode";
 import WatchModeScorer from "./WatchModeScorer";
 
-// Sample episode tasks for Watch Mode demo
-// In production, these would come from scraped episode data
-const SAMPLE_EPISODES: Record<number, { title: string; tasks: Task[] }[]> = {};
-
 interface Task {
   id: number;
   name: string;

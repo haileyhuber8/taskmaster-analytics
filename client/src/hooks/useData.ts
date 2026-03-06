@@ -1,21 +1,21 @@
-const API_BASE = "http://localhost:3001/api";
+const DATA_BASE = import.meta.env.BASE_URL + "data";
 
 export async function fetchContestants() {
-  const res = await fetch(`${API_BASE}/contestants`);
+  const res = await fetch(`${DATA_BASE}/contestants.json`);
   return res.json();
 }
 
 export async function fetchContestant(id: number) {
-  const res = await fetch(`${API_BASE}/contestants/${id}`);
-  return res.json();
+  const all = await fetchContestants();
+  return all.find((c: { id: number }) => c.id === id) || null;
 }
 
 export async function fetchSeasons() {
-  const res = await fetch(`${API_BASE}/seasons`);
+  const res = await fetch(`${DATA_BASE}/seasons.json`);
   return res.json();
 }
 
 export async function fetchAnalysis() {
-  const res = await fetch(`${API_BASE}/analysis`);
+  const res = await fetch(`${DATA_BASE}/analysis.json`);
   return res.json();
 }
