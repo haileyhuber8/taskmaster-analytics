@@ -24,3 +24,21 @@ export async function fetchFunFacts(): Promise<{ text: string; seasons: number[]
   const res = await fetch(`${DATA_BASE}/funfacts.json`);
   return res.json();
 }
+
+export interface EpisodeTask {
+  id: number;
+  name: string;
+  judgement: "objective" | "subjective" | "combo";
+  contestants: { id: number; name: string; score: number }[];
+}
+
+export interface Episode {
+  episode: number;
+  title: string;
+  tasks: EpisodeTask[];
+}
+
+export async function fetchEpisodes(): Promise<Record<string, Episode[]>> {
+  const res = await fetch(`${DATA_BASE}/episodes.json`);
+  return res.json();
+}

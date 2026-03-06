@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useProfiles } from "../hooks/useWatchMode";
+import { fetchEpisodes, type Episode } from "../hooks/useData";
 import WatchModeScorer from "./WatchModeScorer";
 
 interface Task {
@@ -9,52 +10,22 @@ interface Task {
   contestants: { id: number; name: string; actualScore: number }[];
 }
 
-// Generate demo tasks from contestant data
-function generateDemoTasks(seasonContestants: string[]): Task[] {
-  const contestants = seasonContestants.map((name, i) => ({
-    id: i + 1,
-    name,
-    actualScore: Math.floor(Math.random() * 5) + 1,
-  }));
-
-  return [
-    { id: 1, name: "Prize Task: Best thing that smells amazing", judgement: "subjective", contestants: contestants.map(c => ({ ...c, actualScore: Math.floor(Math.random() * 5) + 1 })) },
-    { id: 2, name: "Make the best sandwich without leaving the room", judgement: "subjective", contestants: contestants.map(c => ({ ...c, actualScore: Math.floor(Math.random() * 5) + 1 })) },
-    { id: 3, name: "Throw a ball the furthest", judgement: "objective", contestants: contestants.map(c => ({ ...c, actualScore: Math.floor(Math.random() * 5) + 1 })) },
-    { id: 4, name: "Create the most impressive work of art", judgement: "subjective", contestants: contestants.map(c => ({ ...c, actualScore: Math.floor(Math.random() * 5) + 1 })) },
-    { id: 5, name: "Live task: Stack the most items", judgement: "combo", contestants: contestants.map(c => ({ ...c, actualScore: Math.floor(Math.random() * 5) + 1 })) },
-  ];
-}
-
-const SEASON_CONTESTANTS: Record<number, string[]> = {
-  1: ["Frank Skinner", "Josh Widdicombe", "Roisin Conaty", "Romesh Ranganathan", "Tim Key"],
-  2: ["Doc Brown", "Joe Wilkinson", "Jon Richardson", "Katherine Ryan", "Richard Osman"],
-  3: ["Al Murray", "Dave Gorman", "Paul Chowdhry", "Rob Beckett", "Sara Pascoe"],
-  4: ["Hugh Dennis", "Joe Lycett", "Lolly Adefope", "Mel Giedroyc", "Noel Fielding"],
-  5: ["Aisling Bea", "Bob Mortimer", "Mark Watson", "Nish Kumar", "Sally Phillips"],
-  6: ["Alice Levine", "Asim Chaudhry", "Liza Tarbuck", "Russell Howard", "Tim Vine"],
-  7: ["James Acaster", "Jessica Knappett", "Kerry Godliman", "Phil Wang", "Rhod Gilbert"],
-  8: ["Iain Stirling", "Joe Thomas", "Lou Sanders", "Paul Sinha", "Sian Gibson"],
-  9: ["David Baddiel", "Ed Gamble", "Jo Brand", "Katy Wix", "Rose Matafeo"],
-  10: ["Daisy May Cooper", "Johnny Vegas", "Katherine Parkinson", "Mawaan Rizwan", "Richard Herring"],
-  11: ["Charlotte Ritchie", "Jamali Maddix", "Lee Mack", "Mike Wozniak", "Sarah Kendall"],
-  12: ["Alan Davies", "Desiree Burch", "Guz Khan", "Morgana Robinson", "Victoria Coren Mitchell"],
-  13: ["Ardal O'Hanlon", "Bridget Christie", "Chris Ramsey", "Judi Love", "Sophie Duker"],
-  14: ["Dara Ó Briain", "Fern Brady", "John Kearns", "Munya Chawawa", "Sarah Millican"],
-  15: ["Frankie Boyle", "Ivo Graham", "Jenny Eclair", "Kiell Smith-Bynoe", "Mae Martin"],
-  16: ["Julian Clary", "Lucy Beaumont", "Sam Campbell", "Sue Perkins", "Susan Wokoma"],
-  17: ["Joanne McNally", "John Robins", "Nick Mohammed", "Sophie Willan", "Steve Pemberton"],
-  18: ["Andy Zaltzman", "Babatunde Aléshé", "Emma Sidi", "Jack Dee", "Rosie Jones"],
-  19: ["Fatiha El-Ghorri", "Jason Mantzoukas", "Mathew Baynton", "Rosie Ramsey", "Stevie Martin"],
-  20: ["Ania Magliano", "Maisie Adam", "Phil Ellis", "Reece Shearsmith", "Sanjeev Bhaskar"],
-};
-
 export default function WatchMode() {
   const { profiles, addProfile, removeProfile, saveScores } = useProfiles();
   const [newName, setNewName] = useState("");
   const [selectedSeason, setSelectedSeason] = useState<number | null>(null);
+  const [selectedEpisode, setSelectedEpisode] = useState<number | null>(null);
   const [gameActive, setGameActive] = useState(false);
   const [tasks, setTasks] = useState<Task[]>([]);
+  const [allEpisodes, setAllEpisodes] = useState<Record<string, Episode[]>>({});
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchEpisodes().then((data) => {
+      setAllEpisodes(data);
+      setLoading(false);
+    });
+  }, []);
 
   const handleAddProfile = () => {
     if (newName.trim()) {
@@ -63,10 +34,18 @@ export default function WatchMode() {
     }
   };
 
+  const currentEpisodes = selectedSeason ? (allEpisodes[String(selectedSeason)] || []) : [];
+
   const startGame = () => {
-    if (selectedSeason && profiles.length > 0) {
-      const contestants = SEASON_CONTESTANTS[selectedSeason] || SEASON_CONTESTANTS[1];
-      setTasks(generateDemoTasks(contestants));
+    if (selectedSeason && selectedEpisode && profiles.length > 0) {
+      const ep = currentEpisodes.find((e) => e.episode === selectedEpisode);
+      if (!ep) return;
+      // Map score -> actualScore for compatibility with scorer
+      const mappedTasks: Task[] = ep.tasks.map((t) => ({
+        ...t,
+        contestants: t.contestants.map((c) => ({ id: c.id, name: c.name, actualScore: c.score })),
+      }));
+      setTasks(mappedTasks);
       setGameActive(true);
     }
   };
@@ -79,7 +58,7 @@ export default function WatchMode() {
         seasonNumber={selectedSeason!}
         onComplete={(results) => {
           results.forEach((r) => {
-            saveScores(r.playerId, `S${selectedSeason}-E1`, r.scores, r.alignment);
+            saveScores(r.playerId, `S${selectedSeason}-E${selectedEpisode}`, r.scores, r.alignment);
           });
           setGameActive(false);
         }}
@@ -87,6 +66,8 @@ export default function WatchMode() {
       />
     );
   }
+
+  if (loading) return <div className="loading"><div className="spinner" /> Loading episodes...</div>;
 
   return (
     <div>
@@ -134,25 +115,62 @@ export default function WatchMode() {
           <button className="btn-primary" onClick={handleAddProfile}>Add</button>
         </div>
 
-        <h3>Select Episode</h3>
+        <h3>Select Series</h3>
         <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.5rem", marginBottom: "1rem" }}>
-          {Object.keys(SEASON_CONTESTANTS).map((s) => (
+          {Object.keys(allEpisodes).sort((a, b) => Number(a) - Number(b)).map((s) => (
             <button
               key={s}
               className={`suggestion-btn ${selectedSeason === parseInt(s) ? "active" : ""}`}
               style={selectedSeason === parseInt(s) ? { borderColor: "var(--tm-red)", color: "var(--tm-red)" } : {}}
-              onClick={() => setSelectedSeason(parseInt(s))}
+              onClick={() => { setSelectedSeason(parseInt(s)); setSelectedEpisode(null); }}
             >
               Series {s}
             </button>
           ))}
         </div>
 
+        {selectedSeason && currentEpisodes.length > 0 && (
+          <>
+            <h3>Select Episode</h3>
+            <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.5rem", marginBottom: "1rem" }}>
+              {currentEpisodes.map((ep) => (
+                <button
+                  key={ep.episode}
+                  className={`suggestion-btn ${selectedEpisode === ep.episode ? "active" : ""}`}
+                  style={selectedEpisode === ep.episode ? { borderColor: "var(--tm-red)", color: "var(--tm-red)" } : {}}
+                  onClick={() => setSelectedEpisode(ep.episode)}
+                >
+                  Ep {ep.episode}: {ep.title}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+
+        {selectedEpisode && (() => {
+          const ep = currentEpisodes.find((e) => e.episode === selectedEpisode);
+          if (!ep) return null;
+          return (
+            <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
+              <p style={{ fontWeight: 700, marginBottom: "0.5rem" }}>
+                Series {selectedSeason}, {ep.title} — {ep.tasks.length} tasks
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
+                {ep.tasks.map((t) => (
+                  <p key={t.id} style={{ margin: 0, fontSize: "0.85rem", color: "var(--tm-text-muted)" }}>
+                    {t.id}. {t.name} <span style={{ opacity: 0.6 }}>({t.judgement})</span>
+                  </p>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+
         <button
           className="btn-primary"
           style={{ width: "100%", padding: "1rem", fontSize: "1.1rem" }}
           onClick={startGame}
-          disabled={!selectedSeason || profiles.length === 0}
+          disabled={!selectedSeason || !selectedEpisode || profiles.length === 0}
         >
           🎬 Start Watch Mode
         </button>
