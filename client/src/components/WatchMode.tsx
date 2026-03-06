@@ -36,10 +36,15 @@ export default function WatchMode() {
 
   const currentEpisodes = selectedSeason ? (allEpisodes[String(selectedSeason)] || []) : [];
 
+  const isEpisodePlayable = (ep: Episode | undefined) => {
+    if (!ep) return false;
+    return ep.tasks.length > 0 && !ep.tasks[0].name.startsWith("Tasks coming soon");
+  };
+
   const startGame = () => {
     if (selectedSeason && selectedEpisode && profiles.length > 0) {
       const ep = currentEpisodes.find((e) => e.episode === selectedEpisode);
-      if (!ep) return;
+      if (!ep || !isEpisodePlayable(ep)) return;
       // Map score -> actualScore for compatibility with scorer
       const mappedTasks: Task[] = ep.tasks.map((t) => ({
         ...t,
@@ -150,18 +155,25 @@ export default function WatchMode() {
         {selectedEpisode && (() => {
           const ep = currentEpisodes.find((e) => e.episode === selectedEpisode);
           if (!ep) return null;
+          const playable = isEpisodePlayable(ep);
           return (
             <div style={{ background: "var(--tm-cream-dark)", padding: "1rem", borderRadius: "8px", marginBottom: "1rem" }}>
               <p style={{ fontWeight: 700, marginBottom: "0.5rem" }}>
-                Series {selectedSeason}, {ep.title} — {ep.tasks.length} tasks
+                Series {selectedSeason}, {ep.title} — {playable ? `${ep.tasks.length} tasks` : "Task data coming soon"}
               </p>
-              <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
-                {ep.tasks.map((t) => (
-                  <p key={t.id} style={{ margin: 0, fontSize: "0.85rem", color: "var(--tm-text-muted)" }}>
-                    {t.id}. {t.name} <span style={{ opacity: 0.6 }}>({t.judgement})</span>
-                  </p>
-                ))}
-              </div>
+              {playable ? (
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
+                  {ep.tasks.map((t) => (
+                    <p key={t.id} style={{ margin: 0, fontSize: "0.85rem", color: "var(--tm-text-muted)" }}>
+                      {t.id}. {t.name} <span style={{ opacity: 0.6 }}>({t.judgement})</span>
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <p style={{ margin: 0, fontSize: "0.9rem", color: "var(--tm-accent)", fontStyle: "italic" }}>
+                  ⏳ Real task data for this series is not yet available. Episode title is confirmed.
+                </p>
+              )}
             </div>
           );
         })()}
@@ -170,7 +182,7 @@ export default function WatchMode() {
           className="btn-primary"
           style={{ width: "100%", padding: "1rem", fontSize: "1.1rem" }}
           onClick={startGame}
-          disabled={!selectedSeason || !selectedEpisode || profiles.length === 0}
+          disabled={!selectedSeason || !selectedEpisode || profiles.length === 0 || !isEpisodePlayable(currentEpisodes.find((e) => e.episode === selectedEpisode))}
         >
           🎬 Start Watch Mode
         </button>
